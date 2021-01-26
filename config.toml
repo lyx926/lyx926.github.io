@@ -1,0 +1,35 @@
+baseURL = "https://lyx926.github.io"
+languageCode = "zh-cn"
+title = "MeiK's blog"
+theme = "github-style"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "MeiK"
+  description = "In solitude, where we are least alone."
+  github = "MeiK2333"
+  facebook = "MeiK2333"
+  twitter = "MeiK2333"
+  linkedin = "MeiK2333"
+  instagram = "MeiK2333"
+  tumblr = "MeiK2333"
+  email = "meik2333@gmail.com"
+  url = "https://lyx926.github.io"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "China"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/lyx926"
+  [[params.links]]
+    title = "Link2"
+    href = "https://lyx926.github.io/"
+    icon = "https://lyx926.github.io//images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
