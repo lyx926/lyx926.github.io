@@ -2,30 +2,30 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">Hugo 主题 MemE</title>
+    <title type="text">lyx926</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-07-29T10:06:00&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2021-07-30T15:41:02&#43;08:00</updated>
+    <id>https://lyx926.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://lyx926.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://lyx926.github.io/atom.xml" />
     <author>
-            <name>reuixiy</name>
-            <uri>https://example.com/</uri>
+            <name>lyx926</name>
+            <uri>https://lyx926.github.io/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>lyx990926@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.86.0">Hugo</generator>
         <entry>
             <title type="text">Theme preview</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/even-preview/" />
-            <id>https://example.com/posts/even-preview/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/even-preview/" />
+            <id>https://lyx926.github.io/posts/even-preview/</id>
             <updated>2018-07-10T00:00:00&#43;08:00</updated>
             <published>2018-07-10T00:00:00&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Based on MarkdownPreview test.md. Markdown # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs This is a paragraph. I am still part……</summary>
             
@@ -59,12 +59,12 @@ I am still part of the paragraph.&lt;/p&gt;
 &lt;p&gt;New paragraph.&lt;/p&gt;
 &lt;h2 id=&#34;anchor&#34;&gt;Anchor&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Define anchor by &lt;code&gt;{#section-id}&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://example.com/posts/even-preview/#section-7&#34;&gt;Something&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#section-7&#34;&gt;Something&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;footnote&#34;&gt;Footnote&lt;/h2&gt;
-&lt;p&gt;This is a footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://example.com/posts/even-preview/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;A footnote on &amp;quot;label&amp;quot;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;https://example.com/posts/even-preview/#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;The footnote for definition&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;https://example.com/posts/even-preview/#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;A footnote with link&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;https://example.com/posts/even-preview/#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This is a footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A footnote on &amp;quot;label&amp;quot;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The footnote for definition&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;A footnote with link&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;inline&#34;&gt;Inline&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;`inline block`
 
@@ -150,7 +150,7 @@ With this link (https://github.com/revolunet/sublimetext-markdown-preview/), it 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Web image
 &lt;img src=&#34;https://count.getloli.com/get/@even-preview?theme=konachan&#34; alt=&#34;Web Picture&#34; title=&#34;Web Picture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Local image
-&lt;img src=&#34;https://example.com/apple-touch-icon.png&#34; alt=&#34;Local Picture&#34; title=&#34;Local Picture&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://lyx926.github.io/apple-touch-icon.png&#34; alt=&#34;Local Picture&#34; title=&#34;Local Picture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.google.com&#34;&gt;www.google.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;mailto:contact@revolunet.com&#34;&gt;contact@revolunet.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;@revolunet&lt;/p&gt;
@@ -477,7 +477,7 @@ function doIt() {
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;2013-08-20T15:16:26.355Z&lt;/code&gt;&lt;/td&gt;
@@ -485,9 +485,9 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;LocalDate&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -498,12 +498,12 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;LocalDateTime&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;2013-08-20T08:16:26.937&lt;/code&gt;&lt;/td&gt;
@@ -511,14 +511,14 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;ZonedDateTime&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;2013-08-21T00:16:26.941+09:00[Asia/Tokyo]&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html&#34;&gt;Time Zone and Offset Classes&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -527,9 +527,9 @@ function doIt() {
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;08:16:26.943&lt;/code&gt;&lt;/td&gt;
@@ -538,8 +538,8 @@ function doIt() {
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;MonthDay&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -550,7 +550,7 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;Year&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
@@ -563,8 +563,8 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;YearMonth&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
@@ -577,7 +577,7 @@ function doIt() {
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;Month&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
@@ -589,13 +589,13 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;OffsetDateTime&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;2013-08-20T08:16:26.954-07:00&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html&#34;&gt;Time Zone and Offset Classes&lt;/a&gt;&lt;/td&gt;
@@ -605,10 +605,10 @@ function doIt() {
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;08:16:26.957-07:00&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://docs.oracle.com/javase/tutorial/datetime/iso/timezones.html&#34;&gt;Time Zone and Offset Classes&lt;/a&gt;&lt;/td&gt;
@@ -620,7 +620,7 @@ function doIt() {
 &lt;td style=&#34;text-align:center&#34;&gt;**&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;**&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;**&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;code&gt;PT20H&lt;/code&gt; (20 hours)&lt;/td&gt;
@@ -628,9 +628,9 @@ function doIt() {
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;Period&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://example.com/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;center&gt;&lt;img src=&#34;https://lyx926.github.io/favicon-16x16.png&#34; alt=&#34;checked&#34;&gt;&lt;/center&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -802,16 +802,16 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;This is a footnote&amp;#160;&lt;a href=&#34;https://example.com/posts/even-preview/#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a footnote&amp;#160;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;A footnote on &amp;quot;label&amp;quot;&amp;#160;&lt;a href=&#34;https://example.com/posts/even-preview/#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A footnote on &amp;quot;label&amp;quot;&amp;#160;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;The footnote for definition&amp;#160;&lt;a href=&#34;https://example.com/posts/even-preview/#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The footnote for definition&amp;#160;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown Cheatsheet&lt;/a&gt;&amp;#160;&lt;a href=&#34;https://example.com/posts/even-preview/#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34;&gt;Markdown Cheatsheet&lt;/a&gt;&amp;#160;&lt;a href=&#34;https://lyx926.github.io/posts/even-preview/#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -827,19 +827,19 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
                             
                             
                             
-                                <category scheme="https://example.com/categories/theme-preview/" term="Theme preview" label="Theme preview" />
+                                <category scheme="https://lyx926.github.io/categories/theme-preview/" term="Theme preview" label="Theme preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/category-2/" term="category-2" label="category-2" />
+                                <category scheme="https://lyx926.github.io/categories/category-2/" term="category-2" label="category-2" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/category-3/" term="category-3" label="category-3" />
+                                <category scheme="https://lyx926.github.io/categories/category-3/" term="category-3" label="category-3" />
                             
                         
                     
@@ -849,19 +849,19 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
                             
                             
                             
-                                <category scheme="https://example.com/tags/preview/" term="preview" label="preview" />
+                                <category scheme="https://lyx926.github.io/tags/preview/" term="preview" label="preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/theme-preview/" term="Theme preview" label="Theme preview" />
+                                <category scheme="https://lyx926.github.io/tags/theme-preview/" term="Theme preview" label="Theme preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/tag-3/" term="tag-3" label="tag-3" />
+                                <category scheme="https://lyx926.github.io/tags/tag-3/" term="tag-3" label="tag-3" />
                             
                         
                     
@@ -871,14 +871,14 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
     
         <entry>
             <title type="text">My First Post</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/my-first-post/" />
-            <id>https://example.com/posts/my-first-post/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/my-first-post/" />
+            <id>https://lyx926.github.io/posts/my-first-post/</id>
             <updated>2021-07-23T12:27:38&#43;08:00</updated>
             <published>2017-12-14T11:18:15&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">第一篇文章</summary>
             
@@ -895,7 +895,7 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
                             
                             
                             
-                                <category scheme="https://example.com/categories/pages/" term="pages" label="pages" />
+                                <category scheme="https://lyx926.github.io/categories/pages/" term="pages" label="pages" />
                             
                         
                     
@@ -905,13 +905,73 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
                             
                             
                             
-                                <category scheme="https://example.com/tags/hugo/" term="hugo" label="hugo" />
+                                <category scheme="https://lyx926.github.io/tags/hugo/" term="hugo" label="hugo" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/pages/" term="pages" label="pages" />
+                                <category scheme="https://lyx926.github.io/tags/pages/" term="pages" label="pages" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">[前端] rimraf</title>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/vue-rimraf/" />
+            <id>https://lyx926.github.io/posts/vue-rimraf/</id>
+            <updated>2021-07-30T01:37:56&#43;08:00</updated>
+            <published>2021-07-30T01:37:56&#43;08:00</published>
+            <author>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">快速完全删除node_modules的方法： 安装npm命令 npm install rimraf -g 在cmd指令下，进……</summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;快速完全删除node_modules的方法：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;安装npm命令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;npm install rimraf -g
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;在cmd指令下，进入所需删除的node_modules文件夹的位置，再输入指令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;rimraf node_modules
+&lt;/code&gt;&lt;/pre&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://lyx926.github.io/categories/%E5%89%8D%E7%AB%AF/" term="前端" label="前端" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://lyx926.github.io/tags/%E5%89%8D%E7%AB%AF/" term="前端" label="前端" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://lyx926.github.io/tags/vue/" term="vue" label="vue" />
                             
                         
                     
@@ -921,14 +981,14 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
     
         <entry>
             <title type="text">This is a hidden post.</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/hidden-post/" />
-            <id>https://example.com/posts/hidden-post/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/hidden-post/" />
+            <id>https://lyx926.github.io/posts/hidden-post/</id>
             <updated>2018-03-08T22:01:19&#43;08:00</updated>
             <published>2018-03-08T17:40:19&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;This post is hidden from the home page.&lt;/p&gt;</summary>
             
@@ -949,14 +1009,14 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
     
         <entry>
             <title type="text">[English] Creating a New Theme</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/english-preview/" />
-            <id>https://example.com/posts/english-preview/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/english-preview/" />
+            <id>https://lyx926.github.io/posts/english-preview/</id>
             <updated>2017-08-31T15:43:48&#43;08:00</updated>
             <published>2017-08-31T15:43:48&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</summary>
             
@@ -1778,7 +1838,7 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/categories/english/" term="English" label="English" />
+                                <category scheme="https://lyx926.github.io/categories/english/" term="English" label="English" />
                             
                         
                     
@@ -1788,19 +1848,19 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/tags/preview/" term="preview" label="preview" />
+                                <category scheme="https://lyx926.github.io/tags/preview/" term="preview" label="preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/english/" term="English" label="English" />
+                                <category scheme="https://lyx926.github.io/tags/english/" term="English" label="English" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/tag-2/" term="tag-2" label="tag-2" />
+                                <category scheme="https://lyx926.github.io/tags/tag-2/" term="tag-2" label="tag-2" />
                             
                         
                     
@@ -1810,14 +1870,14 @@ $ vi themes/zafta/layouts/_default/single.html
     
         <entry>
             <title type="text">[日本語] 敬語体系</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/japanese-preview/" />
-            <id>https://example.com/posts/japanese-preview/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/japanese-preview/" />
+            <id>https://lyx926.github.io/posts/japanese-preview/</id>
             <updated>2017-08-30T01:53:34&#43;08:00</updated>
             <published>2017-08-30T01:53:34&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語……</summary>
             
@@ -1847,7 +1907,7 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/" term="日本語" label="日本語" />
+                                <category scheme="https://lyx926.github.io/categories/%E6%97%A5%E6%9C%AC%E8%AA%9E/" term="日本語" label="日本語" />
                             
                         
                     
@@ -1857,19 +1917,19 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/tags/preview/" term="preview" label="preview" />
+                                <category scheme="https://lyx926.github.io/tags/preview/" term="preview" label="preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/" term="日本語" label="日本語" />
+                                <category scheme="https://lyx926.github.io/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/" term="日本語" label="日本語" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/tag-4/" term="tag-4" label="tag-4" />
+                                <category scheme="https://lyx926.github.io/tags/tag-4/" term="tag-4" label="tag-4" />
                             
                         
                     
@@ -1879,14 +1939,14 @@ $ vi themes/zafta/layouts/_default/single.html
     
         <entry>
             <title type="text">[中文] 《长恨歌》</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/chinese-preview/" />
-            <id>https://example.com/posts/chinese-preview/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/chinese-preview/" />
+            <id>https://lyx926.github.io/posts/chinese-preview/</id>
             <updated>2017-08-30T01:37:56&#43;08:00</updated>
             <published>2017-08-30T01:37:56&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">《长恨歌》是中国唐朝诗人白居易的一首长篇叙事诗。 第一段：贵妃受宠爱 汉皇重色思倾国，御……</summary>
             
@@ -1940,7 +2000,7 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E4%B8%AD%E6%96%87/" term="中文" label="中文" />
+                                <category scheme="https://lyx926.github.io/categories/%E4%B8%AD%E6%96%87/" term="中文" label="中文" />
                             
                         
                     
@@ -1950,19 +2010,19 @@ $ vi themes/zafta/layouts/_default/single.html
                             
                             
                             
-                                <category scheme="https://example.com/tags/preview/" term="preview" label="preview" />
+                                <category scheme="https://lyx926.github.io/tags/preview/" term="preview" label="preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E4%B8%AD%E6%96%87/" term="中文" label="中文" />
+                                <category scheme="https://lyx926.github.io/tags/%E4%B8%AD%E6%96%87/" term="中文" label="中文" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/tag-1/" term="tag-1" label="tag-1" />
+                                <category scheme="https://lyx926.github.io/tags/tag-1/" term="tag-1" label="tag-1" />
                             
                         
                     
@@ -1972,14 +2032,14 @@ $ vi themes/zafta/layouts/_default/single.html
     
         <entry>
             <title type="text">Shortcodes</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/shortcodes/" />
-            <id>https://example.com/posts/shortcodes/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/shortcodes/" />
+            <id>https://lyx926.github.io/posts/shortcodes/</id>
             <updated>2018-02-01T18:01:23&#43;08:00</updated>
             <published>2016-08-30T16:01:23&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Admonition biu biu biu.
 biu biu biu.
@@ -2001,7 +2061,7 @@ Without title.</summary>
                             
                             
                             
-                                <category scheme="https://example.com/categories/shortcodes/" term="shortcodes" label="shortcodes" />
+                                <category scheme="https://lyx926.github.io/categories/shortcodes/" term="shortcodes" label="shortcodes" />
                             
                         
                     
@@ -2011,7 +2071,7 @@ Without title.</summary>
                             
                             
                             
-                                <category scheme="https://example.com/tags/shortcodes/" term="shortcodes" label="shortcodes" />
+                                <category scheme="https://lyx926.github.io/tags/shortcodes/" term="shortcodes" label="shortcodes" />
                             
                         
                     
@@ -2021,14 +2081,14 @@ Without title.</summary>
     
         <entry>
             <title type="text">JS Flowchart Diagrams</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/js-flowchart-diagrams/" />
-            <id>https://example.com/posts/js-flowchart-diagrams/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/js-flowchart-diagrams/" />
+            <id>https://lyx926.github.io/posts/js-flowchart-diagrams/</id>
             <updated>2021-07-23T12:26:01&#43;08:00</updated>
             <published>2015-03-04T21:57:50&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-flow&#34; data-lang=&#34;flow&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
@@ -2220,14 +2280,14 @@ c2(no)-&amp;gt;op2-&amp;gt;e
     
         <entry>
             <title type="text">JS Sequence Diagrams</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/js-sequence-diagrams/" />
-            <id>https://example.com/posts/js-sequence-diagrams/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/js-sequence-diagrams/" />
+            <id>https://lyx926.github.io/posts/js-sequence-diagrams/</id>
             <updated>2021-07-23T12:26:01&#43;08:00</updated>
             <published>2015-03-04T21:57:45&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-sequence&#34; data-lang=&#34;sequence&#34;&gt;Andrew-&amp;gt;China: Says Hello
@@ -2333,14 +2393,14 @@ Note over A,B: Note over both A and B
     
         <entry>
             <title type="text">Syntax Highlighting</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/syntax-highlighting/" />
-            <id>https://example.com/posts/syntax-highlighting/</id>
+            <link rel="alternate" type="text/html" href="https://lyx926.github.io/posts/syntax-highlighting/" />
+            <id>https://lyx926.github.io/posts/syntax-highlighting/</id>
             <updated>2018-11-05T16:01:23&#43;08:00</updated>
             <published>2011-08-30T16:01:23&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>lyx926</name>
+                    <uri>https://lyx926.github.io/</uri>
+                    <email>lyx990926@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -2653,7 +2713,7 @@ fun main(args: Array&amp;lt;String&amp;gt;) {
                             
                             
                             
-                                <category scheme="https://example.com/categories/syntax-highlighting/" term="Syntax Highlighting" label="Syntax Highlighting" />
+                                <category scheme="https://lyx926.github.io/categories/syntax-highlighting/" term="Syntax Highlighting" label="Syntax Highlighting" />
                             
                         
                     
@@ -2663,19 +2723,19 @@ fun main(args: Array&amp;lt;String&amp;gt;) {
                             
                             
                             
-                                <category scheme="https://example.com/tags/preview/" term="preview" label="preview" />
+                                <category scheme="https://lyx926.github.io/tags/preview/" term="preview" label="preview" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/syntax-highlighting/" term="Syntax Highlighting" label="Syntax Highlighting" />
+                                <category scheme="https://lyx926.github.io/tags/syntax-highlighting/" term="Syntax Highlighting" label="Syntax Highlighting" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/tag-5/" term="tag-5" label="tag-5" />
+                                <category scheme="https://lyx926.github.io/tags/tag-5/" term="tag-5" label="tag-5" />
                             
                         
                     
