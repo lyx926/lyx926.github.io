@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.97.3" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.86.0" /><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -18,7 +18,7 @@
 
     
     
-        <script src="/js/meme.min.13d7f1920c0a529e1181af34b8bdcc6770b5ca28dd7fb99568315a3049647cb4.js"></script>
+        <script src="/js/meme.min.4c8facfc8134c52bd7bf6bbfa3a7e68b06b47ae04968222e28e7831f5b1a7592.js"></script>
 
     
 
@@ -60,7 +60,7 @@
         "description": "SpringBoot-Vue Docker 快速创建容器脚本： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  538 ,
+        "wordCount":  539 ,
         "image": "https://lyx926.github.io/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -229,7 +229,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;538</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;539</span>
     
     
         
@@ -363,125 +363,127 @@
 </span><span class="lnt">114
 </span><span class="lnt">115
 </span><span class="lnt">116
+</span><span class="lnt">117
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 《SpringBoot-Vue Docker 快速创建容器脚本》
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v1.0 主目录：/disk/home/项目名
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v2.0 容器名字：j-xxx是jar服务，t-xxx是tomcat服务，n-xxx是nginx服务
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v3.0 增加jar容器的部署!
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v3.0 默认以jar端口为后台服务，如需用war服务，请修改ngxin/www/nginx.conf 反向代理的后台端口!
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v3.0 推荐端口顺序 xxx0 xxx1 xxx2!
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> v3.0 jar包上传后，重启j-xxx即可!
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;input_docker_name:&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">read</span> docker_name
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;input_frontend_port:&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">read</span> frontend_port
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;input_backend_jar_port:&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">read</span> jar_backend_port
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;input_backend_war_port:&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">read</span> war_backend_port
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> running......
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;
-</span></span></span><span class="line"><span class="cl"><span class="s1">user  nginx;
-</span></span></span><span class="line"><span class="cl"><span class="s1">worker_processes  1;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">error_log  /var/log/nginx/error.log warn;
-</span></span></span><span class="line"><span class="cl"><span class="s1">pid        /var/run/nginx.pid;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">events {
-</span></span></span><span class="line"><span class="cl"><span class="s1">    worker_connections  1024;
-</span></span></span><span class="line"><span class="cl"><span class="s1">}
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">http {
-</span></span></span><span class="line"><span class="cl"><span class="s1">    include       /etc/nginx/mime.types;
-</span></span></span><span class="line"><span class="cl"><span class="s1">    default_type  application/octet-stream;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    log_format  main  &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$remote_addr&#39;</span> - <span class="s1">&#39;$remote_user&#39;</span> <span class="o">[</span><span class="s1">&#39;$time_local&#39;</span><span class="o">]</span> <span class="s1">&#39;&#34;&#39;&#39;$request&#39;&#39;&#34;&#39;</span> <span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                      &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$status $body_bytes_sent&#39;</span> <span class="s1">&#39;&#34;&#39;&#39;$http_referer&#39;&#39;&#34;&#39;</span> <span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                      &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$http_user_agent&#39;</span> <span class="s1">&#39;&#34;&#39;&#39;$http_x_forwarded_for&#39;&#39;&#34;&#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    access_log  /var/log/nginx/access.log  main;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    sendfile        on;
-</span></span></span><span class="line"><span class="cl"><span class="s1">    #tcp_nopush     on;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    keepalive_timeout  65;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    #gzip  on;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">	server {
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">		listen       80;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	server_name  localhost;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">                location / {
-</span></span></span><span class="line"><span class="cl"><span class="s1">		        root   /usr/share/nginx/html;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                	try_files $uri $uri/ /index.html;
-</span></span></span><span class="line"><span class="cl"><span class="s1">		        index  index.html index.htm;
-</span></span></span><span class="line"><span class="cl"><span class="s1">    		}	
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">	        location /prod-api/{
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	        proxy_set_header Host $http_host;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                	proxy_set_header X-Real-IP $remote_addr;
-</span></span></span><span class="line"><span class="cl"><span class="s1">            		proxy_set_header REMOTE-HOST $remote_addr;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-</span></span></span><span class="line"><span class="cl"><span class="s1">	                proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	}
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">	        location /ureport/{
-</span></span></span><span class="line"><span class="cl"><span class="s1">	                proxy_set_header Host $http_host;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	        proxy_set_header X-Real-IP $remote_addr;
-</span></span></span><span class="line"><span class="cl"><span class="s1">                	proxy_set_header REMOTE-HOST $remote_addr;
-</span></span></span><span class="line"><span class="cl"><span class="s1">	                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	        proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/ureport/;
-</span></span></span><span class="line"><span class="cl"><span class="s1">	        }
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	error_page   500 502 503 504  /50x.html;
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">	        location = /50x.html {
-</span></span></span><span class="line"><span class="cl"><span class="s1">            		root   html;
-</span></span></span><span class="line"><span class="cl"><span class="s1">        	}
-</span></span></span><span class="line"><span class="cl"><span class="s1">    }
-</span></span></span><span class="line"><span class="cl"><span class="s1">
-</span></span></span><span class="line"><span class="cl"><span class="s1">    include /etc/nginx/conf.d/*.conf;
-</span></span></span><span class="line"><span class="cl"><span class="s1">}
-</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;</span>&gt;/disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf/nginx.conf
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">docker run -d -p <span class="si">${</span><span class="nv">frontend_port</span><span class="si">}</span>:80 --name n-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/www:/usr/share/nginx/html -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/logs:/var/log/nginx -e <span class="nv">TZ</span><span class="o">=</span>Asia/Shanghai nginx
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">docker run -d -p <span class="si">${</span><span class="nv">war_backend_port</span><span class="si">}</span>:8080 --name t-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/tomcat/webapps:/usr/local/soft/tomcat/webapps/ -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 -e <span class="nv">TZ</span><span class="o">=</span>Asia/Shanghai docker.io/donglsheng/tomcat9_jdk8
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">#echo &#39;nginx_run_success!&#39;&gt;/disk/home/${docker_name}/nginx/www/index.html</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/tomcat/webapps/ROOT
-</span></span><span class="line"><span class="cl"><span class="c1">#echo &#39;tomcat_run_success!&#39;&gt;/disk/home/${docker_name}/tomcat/webapps/ROOT/index.html</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">docker stop t-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">docker run -dit -p <span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span>:8080 --name j-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/jar:/opt/jar -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 15588855251/jar1.8:3.0
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span>
-</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;created success!&#39;</span>
-</span></span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="cp">#!/bin/bash
+</span><span class="cp"></span><span class="nb">echo</span> 
+<span class="nb">echo</span> 《SpringBoot-Vue Docker 快速创建容器脚本》
+<span class="nb">echo</span> 
+<span class="nb">echo</span> v1.0 主目录：/disk/home/项目名
+<span class="nb">echo</span> v2.0 容器名字：j-xxx是jar服务，t-xxx是tomcat服务，n-xxx是nginx服务
+<span class="nb">echo</span> v3.0 增加jar容器的部署!
+<span class="nb">echo</span> v3.0 默认以jar端口为后台服务，如需用war服务，请修改ngxin/www/nginx.conf 反向代理的后台端口!
+<span class="nb">echo</span> v3.0 推荐端口顺序 xxx0 xxx1 xxx2!
+<span class="nb">echo</span> v3.0 jar包上传后，重启j-xxx即可!
+<span class="nb">echo</span> 
+<span class="nb">echo</span> <span class="s1">&#39;input_docker_name:&#39;</span>
+<span class="nb">read</span> docker_name
+<span class="nb">echo</span> 
+
+<span class="nb">echo</span> <span class="s1">&#39;input_frontend_port:&#39;</span>
+<span class="nb">read</span> frontend_port
+<span class="nb">echo</span> 
+
+<span class="nb">echo</span> <span class="s1">&#39;input_backend_jar_port:&#39;</span>
+<span class="nb">read</span> jar_backend_port
+<span class="nb">echo</span> 
+
+<span class="nb">echo</span> <span class="s1">&#39;input_backend_war_port:&#39;</span>
+<span class="nb">read</span> war_backend_port
+<span class="nb">echo</span> 
+
+<span class="nb">echo</span> running......
+
+mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf
+
+<span class="nb">echo</span> <span class="s1">&#39;
+</span><span class="s1">user  nginx;
+</span><span class="s1">worker_processes  1;
+</span><span class="s1">
+</span><span class="s1">error_log  /var/log/nginx/error.log warn;
+</span><span class="s1">pid        /var/run/nginx.pid;
+</span><span class="s1">
+</span><span class="s1">
+</span><span class="s1">events {
+</span><span class="s1">    worker_connections  1024;
+</span><span class="s1">}
+</span><span class="s1">
+</span><span class="s1">
+</span><span class="s1">http {
+</span><span class="s1">    include       /etc/nginx/mime.types;
+</span><span class="s1">    default_type  application/octet-stream;
+</span><span class="s1">
+</span><span class="s1">    log_format  main  &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$remote_addr&#39;</span> - <span class="s1">&#39;$remote_user&#39;</span> <span class="o">[</span><span class="s1">&#39;$time_local&#39;</span><span class="o">]</span> <span class="s1">&#39;&#34;&#39;&#39;$request&#39;&#39;&#34;&#39;</span> <span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;
+</span><span class="s1">                      &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$status $body_bytes_sent&#39;</span> <span class="s1">&#39;&#34;&#39;&#39;$http_referer&#39;&#39;&#34;&#39;</span> <span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;
+</span><span class="s1">                      &#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;$http_user_agent&#39;</span> <span class="s1">&#39;&#34;&#39;&#39;$http_x_forwarded_for&#39;&#39;&#34;&#39;</span><span class="s2">&#34;&#39;&#34;</span><span class="s1">&#39;;
+</span><span class="s1">
+</span><span class="s1">    access_log  /var/log/nginx/access.log  main;
+</span><span class="s1">
+</span><span class="s1">    sendfile        on;
+</span><span class="s1">    #tcp_nopush     on;
+</span><span class="s1">
+</span><span class="s1">    keepalive_timeout  65;
+</span><span class="s1">
+</span><span class="s1">    #gzip  on;
+</span><span class="s1">
+</span><span class="s1">	server {
+</span><span class="s1">
+</span><span class="s1">		listen       80;
+</span><span class="s1">        	server_name  localhost;
+</span><span class="s1">
+</span><span class="s1">                location / {
+</span><span class="s1">		        root   /usr/share/nginx/html;
+</span><span class="s1">                	try_files $uri $uri/ /index.html;
+</span><span class="s1">		        index  index.html index.htm;
+</span><span class="s1">    		}	
+</span><span class="s1">
+</span><span class="s1">	        location /prod-api/{
+</span><span class="s1">        	        proxy_set_header Host $http_host;
+</span><span class="s1">                	proxy_set_header X-Real-IP $remote_addr;
+</span><span class="s1">            		proxy_set_header REMOTE-HOST $remote_addr;
+</span><span class="s1">                	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+</span><span class="s1">	                proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/;
+</span><span class="s1">        	}
+</span><span class="s1">
+</span><span class="s1">	        location /ureport/{
+</span><span class="s1">	                proxy_set_header Host $http_host;
+</span><span class="s1">        	        proxy_set_header X-Real-IP $remote_addr;
+</span><span class="s1">                	proxy_set_header REMOTE-HOST $remote_addr;
+</span><span class="s1">	                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+</span><span class="s1">        	        proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/ureport/;
+</span><span class="s1">	        }
+</span><span class="s1">
+</span><span class="s1">        	error_page   500 502 503 504  /50x.html;
+</span><span class="s1">
+</span><span class="s1">	        location = /50x.html {
+</span><span class="s1">            		root   html;
+</span><span class="s1">        	}
+</span><span class="s1">    }
+</span><span class="s1">
+</span><span class="s1">    include /etc/nginx/conf.d/*.conf;
+</span><span class="s1">}
+</span><span class="s1">&#39;</span>&gt;/disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf/nginx.conf
+<span class="nb">echo</span> 
+
+docker run -d -p <span class="si">${</span><span class="nv">frontend_port</span><span class="si">}</span>:80 --name n-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/www:/usr/share/nginx/html -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/nginx/logs:/var/log/nginx -e <span class="nv">TZ</span><span class="o">=</span>Asia/Shanghai nginx
+<span class="nb">echo</span>
+
+docker run -d -p <span class="si">${</span><span class="nv">war_backend_port</span><span class="si">}</span>:8080 --name t-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/tomcat/webapps:/usr/local/soft/tomcat/webapps/ -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 -e <span class="nv">TZ</span><span class="o">=</span>Asia/Shanghai docker.io/donglsheng/tomcat9_jdk8
+
+<span class="c1">#echo &#39;nginx_run_success!&#39;&gt;/disk/home/${docker_name}/nginx/www/index.html</span>
+
+mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/tomcat/webapps/ROOT
+<span class="c1">#echo &#39;tomcat_run_success!&#39;&gt;/disk/home/${docker_name}/tomcat/webapps/ROOT/index.html</span>
+
+docker stop t-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>
+<span class="nb">echo</span>
+
+docker run -dit -p <span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span>:8080 --name j-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/jar:/opt/jar -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 15588855251/jar1.8:3.0
+<span class="nb">echo</span>
+<span class="nb">echo</span> <span class="s1">&#39;created success!&#39;</span>
+
+</code></pre></td></tr></table></div>
 </div>
 </div>
             </div>
@@ -616,6 +618,10 @@
             <ul class="related-list">
                 
                     <li class="related-item">
+                        <a href="/posts/work-hugo2022-05-23/" class="related-link">[命令] hugo Command</a>
+                    </li>
+                
+                    <li class="related-item">
                         <a href="/posts/work-dockercommand2022-04-27/" class="related-link">[命令] Docker Command</a>
                     </li>
                 
@@ -680,7 +686,7 @@
             
             
                 <li class="post-nav-next">
-                    <a href="/posts/work-plan20210730/" rel="next">[工作计划] workPlan &gt;</a>
+                    <a href="/posts/vue-rimraf/" rel="next">[前端] rimraf &gt;</a>
                 </li>
             
         </ul>
