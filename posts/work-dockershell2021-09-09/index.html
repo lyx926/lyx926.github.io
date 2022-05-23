@@ -60,7 +60,7 @@
         "description": "SpringBoot-Vue Docker 快速创建容器脚本： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  539 ,
+        "wordCount":  507 ,
         "image": "https://lyx926.github.io/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -229,7 +229,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;539</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;507</span>
     
     
         
@@ -349,21 +349,6 @@
 </span><span class="lnt">100
 </span><span class="lnt">101
 </span><span class="lnt">102
-</span><span class="lnt">103
-</span><span class="lnt">104
-</span><span class="lnt">105
-</span><span class="lnt">106
-</span><span class="lnt">107
-</span><span class="lnt">108
-</span><span class="lnt">109
-</span><span class="lnt">110
-</span><span class="lnt">111
-</span><span class="lnt">112
-</span><span class="lnt">113
-</span><span class="lnt">114
-</span><span class="lnt">115
-</span><span class="lnt">116
-</span><span class="lnt">117
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="cp">#!/bin/bash
@@ -376,6 +361,7 @@
 <span class="nb">echo</span> v3.0 默认以jar端口为后台服务，如需用war服务，请修改ngxin/www/nginx.conf 反向代理的后台端口!
 <span class="nb">echo</span> v3.0 推荐端口顺序 xxx0 xxx1 xxx2!
 <span class="nb">echo</span> v3.0 jar包上传后，重启j-xxx即可!
+<span class="nb">echo</span> v4.0 jar容器增加fping命令!
 <span class="nb">echo</span> 
 <span class="nb">echo</span> <span class="s1">&#39;input_docker_name:&#39;</span>
 <span class="nb">read</span> docker_name
@@ -432,27 +418,11 @@ mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span
 </span><span class="s1">		listen       80;
 </span><span class="s1">        	server_name  localhost;
 </span><span class="s1">
-</span><span class="s1">                location / {
-</span><span class="s1">		        root   /usr/share/nginx/html;
-</span><span class="s1">                	try_files $uri $uri/ /index.html;
-</span><span class="s1">		        index  index.html index.htm;
-</span><span class="s1">    		}	
-</span><span class="s1">
-</span><span class="s1">	        location /prod-api/{
-</span><span class="s1">        	        proxy_set_header Host $http_host;
-</span><span class="s1">                	proxy_set_header X-Real-IP $remote_addr;
-</span><span class="s1">            		proxy_set_header REMOTE-HOST $remote_addr;
-</span><span class="s1">                	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-</span><span class="s1">	                proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/;
-</span><span class="s1">        	}
-</span><span class="s1">
-</span><span class="s1">	        location /ureport/{
-</span><span class="s1">	                proxy_set_header Host $http_host;
-</span><span class="s1">        	        proxy_set_header X-Real-IP $remote_addr;
-</span><span class="s1">                	proxy_set_header REMOTE-HOST $remote_addr;
-</span><span class="s1">	                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-</span><span class="s1">        	        proxy_pass http://192.168.10.108:&#39;</span><span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span><span class="s1">&#39;/ureport/;
-</span><span class="s1">	        }
+</span><span class="s1">            location / {
+</span><span class="s1">		    root    /usr/share/nginx/html;
+</span><span class="s1">                    try_files $uri $uri/ /index.html;
+</span><span class="s1">		            index  index.html index.htm;
+</span><span class="s1">    		}
 </span><span class="s1">
 </span><span class="s1">        	error_page   500 502 503 504  /50x.html;
 </span><span class="s1">
@@ -479,7 +449,7 @@ mkdir -p /disk/home/<span class="si">${</span><span class="nv">docker_name</span
 docker stop t-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>
 <span class="nb">echo</span>
 
-docker run -dit -p <span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span>:8080 --name j-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/jar:/opt/jar -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 15588855251/jar1.8:3.0
+docker run -dit -p <span class="si">${</span><span class="nv">jar_backend_port</span><span class="si">}</span>:8080 --name j-<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span> --privileged<span class="o">=</span><span class="nb">true</span> --restart<span class="o">=</span>always -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/jar:/opt/jar -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/uploadPath -v /disk/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2:/home/<span class="si">${</span><span class="nv">docker_name</span><span class="si">}</span>/ureport2 15588855251/jar1.8:4.0
 <span class="nb">echo</span>
 <span class="nb">echo</span> <span class="s1">&#39;created success!&#39;</span>
 
