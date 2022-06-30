@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 24 May 2022 14:24:23 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jun 2022 19:09:27 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://lyx926.github.io/rss.xml" />
         
@@ -926,6 +926,1445 @@ p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
             </item>
         
             <item>
+                <title>[命令] debian10 nano-command</title>
+                <link>https://lyx926.github.io/posts/work-debian-nano-command2022-06-30/</link>
+                <guid isPermaLink="true">https://lyx926.github.io/posts/work-debian-nano-command2022-06-30/</guid>
+                <pubDate>Tue, 28 Jun 2022 01:37:56 &#43;0800</pubDate>
+                
+                    <author>lyx990926@gmail.com (lyx926)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;blockquote&gt;
+&lt;p&gt;debian10 nano-command&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;安装命令&#34;&gt;安装命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;apt-get install -y nano
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;语法&#34;&gt;语法&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 如果此文件存在，会打开此文件;如果此文件不存在，会自动创建一个新文件并打开。&lt;/span&gt;
+nano &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;文件名&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;快捷键&#34;&gt;快捷键：&lt;/h3&gt;
+&lt;h3 id=&#34;光标控制&#34;&gt;光标控制&lt;/h3&gt;
+&lt;p&gt;移动光标：使用用方向键移动。&lt;/p&gt;
+&lt;p&gt;选择文字：按住鼠标左键拖动。&lt;/p&gt;
+&lt;h3 id=&#34;标记ctrl6&#34;&gt;标记：Ctrl+6&lt;/h3&gt;
+&lt;p&gt;将光标移动到你想要复制/剪贴的内容的开头，按下Ctrl+6，开始标记你选中的内容。&lt;/p&gt;
+&lt;p&gt;然后将光标移动到你想要复制/剪贴的内容的结尾，背景变为白色的全部内容已经标记成功。&lt;/p&gt;
+&lt;p&gt;如果你想要取消标记，重新按下Ctrl+6即可。&lt;/p&gt;
+&lt;h3 id=&#34;复制alt6&#34;&gt;复制：Alt+6&lt;/h3&gt;
+&lt;p&gt;复制一整行：将光标移动到这一行，按下Alt+6，将这一整行的内容复制到剪贴板。&lt;/p&gt;
+&lt;p&gt;复制选中内容：将你想要复制的内容标记成功后，按下Alt+6，将选中的内容复制到剪贴板。&lt;/p&gt;
+&lt;h3 id=&#34;剪贴ctrlk&#34;&gt;剪贴：Ctrl+K&lt;/h3&gt;
+&lt;p&gt;剪贴一整行：将光标移动到这一行，按下Ctrl+K，将这一整行的内容剪贴到剪贴板。&lt;/p&gt;
+&lt;p&gt;剪贴选中内容：将你想要复制的内容标记成功后，按下Ctrl+K，将选中的内容剪贴到剪贴板。&lt;/p&gt;
+&lt;h3 id=&#34;黏贴ctrlu&#34;&gt;黏贴：Ctrl+U&lt;/h3&gt;
+&lt;p&gt;将光标移动到你想要黏贴的位置，按下Ctrl+U，将你剪贴版中的内容黏贴到这里。&lt;/p&gt;
+&lt;h3 id=&#34;搜索ctrlw&#34;&gt;搜索：Ctrl+W&lt;/h3&gt;
+&lt;p&gt;按下Ctrl+W，输入搜索的关键词，回车确定，光标会自动定位到第一个匹配的文本。&lt;/p&gt;
+&lt;p&gt;按下Alt+W，会自动定位到下一个匹配的文本。&lt;/p&gt;
+&lt;p&gt;如果没有匹配的文本，会自动进行提示。&lt;/p&gt;
+&lt;h3 id=&#34;翻页ctrlyctrlv&#34;&gt;翻页：Ctrl+Y/Ctrl+V&lt;/h3&gt;
+&lt;p&gt;上一页：Ctrl+Y&lt;/p&gt;
+&lt;p&gt;下一页：Ctrl+V&lt;/p&gt;
+&lt;h3 id=&#34;保存ctrlo&#34;&gt;保存：Ctrl+O&lt;/h3&gt;
+&lt;p&gt;按下Ctrl+O，会提示你是否保存文件。&lt;/p&gt;
+&lt;h3 id=&#34;退出ctrlx&#34;&gt;退出：Ctrl+X&lt;/h3&gt;
+&lt;p&gt;如果文件没有进行修改，按下Ctrl+X，会自动退出。&lt;/p&gt;
+&lt;p&gt;如果文件已经修改，按下Ctrl+X，会提示你是否保存文件。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/categories/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/linux/">linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/debian10/">debian10</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/ufw/">ufw</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>[命令] debian10 simple-service</title>
+                <link>https://lyx926.github.io/posts/work-debian-simple-service2022-06-30/</link>
+                <guid isPermaLink="true">https://lyx926.github.io/posts/work-debian-simple-service2022-06-30/</guid>
+                <pubDate>Tue, 28 Jun 2022 01:37:56 &#43;0800</pubDate>
+                
+                    <author>lyx990926@gmail.com (lyx926)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;blockquote&gt;
+&lt;p&gt;debian10 simple-service&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;常用命令&#34;&gt;常用命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;shutdown
+init &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+halt
+poweroff
+reboot
+init &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;vi方向和退格失灵etcvimvimrctiny&#34;&gt;vi方向和退格失灵（/etc/vim/vimrc.tiny）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#打开配置文件&lt;/span&gt;
+vi /etc/vim/vimrc.tiny
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; nocompatible
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;backspace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;普通用户sudo失败etcsudoers&#34;&gt;普通用户sudo失败（/etc/sudoers）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#切换到root用户下&lt;/span&gt;
+chmod u+w /etc/sudoers
+vi /etc/sudoers
+&lt;span class=&#34;c1&#34;&gt;#找到这行 root ALL=(ALL) ALL,在他下面添加xxx ALL=(ALL) ALL (这里的xxx是你的用户名)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;配置网卡etcnetworkinterface&#34;&gt;配置网卡（/etc/network/interface）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#修改网卡配置文件&lt;/span&gt;
+vi /etc/network/interface
+&lt;span class=&#34;c1&#34;&gt;#配置网卡eth0的IP地址&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#表示网卡随系统自动请&lt;/span&gt;
+auto eth0
+
+&lt;span class=&#34;c1&#34;&gt;#static  手工配置ip地址   dhcp是自动获取ip地址&lt;/span&gt;
+iface eth0 inet static  &lt;span class=&#34;c1&#34;&gt;#表示网卡为静态ip地址&lt;/span&gt;
+address 192.168.2.147   &lt;span class=&#34;c1&#34;&gt;#表示设置ip地址&lt;/span&gt;
+netmask 255.255.255.0   &lt;span class=&#34;c1&#34;&gt;#表示子网掩码&lt;/span&gt;
+gateway 192.168.2.1     &lt;span class=&#34;c1&#34;&gt;#表示网关，不为了上网，可以不填，只用于局域网通信&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#配置dns&lt;/span&gt;
+vi /etc/resolv.conf
+nameserver 8.8.8.8
+&lt;span class=&#34;c1&#34;&gt;#重启网卡&lt;/span&gt;
+systemctl restart networking
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;配置apt源etcaptsourceslist&#34;&gt;配置apt源（/etc/apt/sources.list）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#配置网络源&lt;/span&gt;
+cat /etc/issue
+&lt;span class=&#34;c1&#34;&gt;#查看系统版本&lt;/span&gt;
+cat /etc/issue
+&lt;span class=&#34;c1&#34;&gt;#备份&lt;/span&gt;
+mv /etc/apt/sources.list /etc/apt/sources.list.bak
+&lt;span class=&#34;c1&#34;&gt;#查找此版本的deb&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#赋值到配置文件中&lt;/span&gt;
+nano /etc/apt/sources.list
+
+&lt;span class=&#34;c1&#34;&gt;#配置本地源&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#1删除配置文件所有内容&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#2添加两个光驱，指定镜像文件&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#3重启&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#4apt-cdrom add&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#安装vim软件&lt;/span&gt;
+apt -y install vim
+
+&lt;span class=&#34;c1&#34;&gt;#清除当前apt缓存&lt;/span&gt;
+apt clean
+&lt;span class=&#34;c1&#34;&gt;#加载当前配置文件到缓存&lt;/span&gt;
+apt update
+&lt;span class=&#34;c1&#34;&gt;#更新现有软件&lt;/span&gt;
+apt dist-upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;安装ssh服务etcsshsshd_config&#34;&gt;安装ssh服务（/etc/ssh/sshd_config）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装ssh&lt;/span&gt;
+apt -y install ssh
+&lt;span class=&#34;c1&#34;&gt;#修改配置文件&lt;/span&gt;
+vim /etc/ssh/sshd_config
+PermitRootLogin yes
+&lt;span class=&#34;c1&#34;&gt;#通过ssh远程软件远程登陆&lt;/span&gt;
+AllowUsers xxx@0.0.0.0/0 设置ssh限制用户登录
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#免密登录例子&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#安装SSH&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#仅允许client客户端进行ssh访问，其余所有主机的请求都应该拒绝&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#配置client只能在Chinaskill20用户环境下可以免秘钥登录，端口号为2222，并且拥有root控制权限&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#1.安装&lt;/span&gt;
+apt-get -y install ssh
+&lt;span class=&#34;c1&#34;&gt;#2.&lt;/span&gt;
+vim /etc/hosts.allow
+ sshd:192.168.1.110:allow &lt;span class=&#34;c1&#34;&gt;#只允许某一地址登陆&lt;/span&gt;
+vim /etc/hosts.deny
+ sshd:ALL                  &lt;span class=&#34;c1&#34;&gt;#开启白名单&lt;/span&gt;
+vi /etc/ssh/sshd_config 
+    port                  &lt;span class=&#34;c1&#34;&gt;#修改端口号&lt;/span&gt;
+    listenaddress         &lt;span class=&#34;c1&#34;&gt;#设置需要监听的ip&lt;/span&gt;
+    pubkeyauthentication  &lt;span class=&#34;c1&#34;&gt;#启用公钥认证，默认为yes&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#另一台计算机操作&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#3.用户操作&lt;/span&gt;
+ &lt;span class=&#34;c1&#34;&gt;#创建用户&lt;/span&gt;
+ groupadd Chinaskill20
+    useradd -m Chinaskill20 -g Chinaskill20 -s /bin/bash -d /home/Chinaskill20
+    passwd Chinaskill20
+
+&lt;span class=&#34;c1&#34;&gt;#4.生成密钥&lt;/span&gt;
+ssh-keygen -t rsa
+
+ssh-copy-id root@192.168.1.107 -p &lt;span class=&#34;m&#34;&gt;2222&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#5.以用户名免密钥登陆&lt;/span&gt;
+ssh root@192.168.1.107 -p &lt;span class=&#34;m&#34;&gt;2222&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;gnome图形界面&#34;&gt;GNOME图形界面&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#1、安装&lt;/span&gt;
+apt-get install gnome -y
+&lt;span class=&#34;c1&#34;&gt;#设置成图形模式&lt;/span&gt;
+systemctl set-default graphical.target
+
+&lt;span class=&#34;c1&#34;&gt;#2、命令行页面切换&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#从桌面切换到命令行&lt;/span&gt;
+Ctrl+Alt+F6  /   Alt+F6
+&lt;span class=&#34;c1&#34;&gt;#从命令行切换到桌面&lt;/span&gt;
+init &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#3、root用户不能登陆问题&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#修改配置文件&lt;/span&gt;
+vi /etc/gdm3/daemon.conf
+&lt;span class=&#34;c1&#34;&gt;#在[security]下&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;AllowRoot&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#修改配置文件&lt;/span&gt;
+vi /etc/pam.d/gdm-password
+&lt;span class=&#34;c1&#34;&gt;#注释掉&lt;/span&gt;
+auth required pam_succeed_if.so user !&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; root quiet_success
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ntp时钟同步&#34;&gt;ntp时钟同步&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#需求&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#chrony为全网提供时间同步服务器；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#Server01、Server02、Server04、Client和Rserver应定期与其校正时间；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#每隔1分钟自动校正一次时间。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装&lt;/span&gt;
+apt install -y chrony
+
+&lt;span class=&#34;c1&#34;&gt;#修改配置&lt;/span&gt;
+cp /etc/chrony/chrony.conf /etc/chrony/chrony.conf.bak
+vim /etc/chrony/chrony.conf
+    server 192.168.174.55    &lt;span class=&#34;c1&#34;&gt;#服务器ip&lt;/span&gt;
+    allow 0.0.0.0/0            &lt;span class=&#34;c1&#34;&gt;#允许连接的ip&lt;/span&gt;
+    &lt;span class=&#34;nb&#34;&gt;local&lt;/span&gt; stratum &lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;        &lt;span class=&#34;c1&#34;&gt;#连接不到服务器ip使用本地时间同步&lt;/span&gt;
+
+ &lt;span class=&#34;c1&#34;&gt;#开启ntp同步&lt;/span&gt;
+ timedatectl set-ntp yes
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装chrony和ntpdate&lt;/span&gt;
+apt install -y chrony  ntpdate
+
+&lt;span class=&#34;c1&#34;&gt;#修改配置&lt;/span&gt;
+vim /etc/chrony/chrony.conf
+ &lt;span class=&#34;c1&#34;&gt;#注释pool 2.debian.pool.ntp.org iburst&lt;/span&gt;
+ &lt;span class=&#34;c1&#34;&gt;#添加chrony服务器ip&lt;/span&gt;
+ server  192.168.174.55 iburst
+
+&lt;span class=&#34;c1&#34;&gt;#开启ntp同步&lt;/span&gt;
+timedatectl set-ntp yes
+
+&lt;span class=&#34;c1&#34;&gt;#重启chrony服务器&lt;/span&gt;
+systemctl restart chrony
+
+&lt;span class=&#34;c1&#34;&gt;#添加定时任务  1分钟同步一次时间&lt;/span&gt;
+vim /etc/crontab 
+ */1 * * * * root ntpdate 192.168.174.55
+
+&lt;span class=&#34;c1&#34;&gt;#重启系统&lt;/span&gt;
+    rebootet-ntp yes
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#服务端&lt;/span&gt;
+root@debian:/var/www/html# chronyc clients
+Hostname                      NTP   Drop Int IntL Last     Cmd   Drop Int  &lt;span class=&#34;nv&#34;&gt;Last&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;===============================================================================&lt;/span&gt;
+192.168.174.55                 &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;      &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;   -    &lt;span class=&#34;m&#34;&gt;40&lt;/span&gt;       &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;      &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;   -     -
+192.168.174.56                  &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;      &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;   -    &lt;span class=&#34;m&#34;&gt;63&lt;/span&gt;       &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;      &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;   -     -
+
+
+&lt;span class=&#34;c1&#34;&gt;#客户端&lt;/span&gt;
+root@debian:~# chronyc sources -V
+&lt;span class=&#34;m&#34;&gt;210&lt;/span&gt; Number of &lt;span class=&#34;nv&#34;&gt;sources&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+MS Name/IP address         Stratum Poll Reach LastRx Last &lt;span class=&#34;nv&#34;&gt;sample&lt;/span&gt;               
+&lt;span class=&#34;o&#34;&gt;===============================================================================&lt;/span&gt;
+^* 192.168.174.55               &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt;   &lt;span class=&#34;m&#34;&gt;177&lt;/span&gt;    &lt;span class=&#34;m&#34;&gt;57&lt;/span&gt;    -12us&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;  -51us&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; +/-   11ms   rebootet-ntp yes
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#客户端查看时间&lt;/span&gt;
+root@debian:~# date
+Tue &lt;span class=&#34;m&#34;&gt;02&lt;/span&gt; Mar &lt;span class=&#34;m&#34;&gt;2021&lt;/span&gt; 09:53:19 AM EST
+
+&lt;span class=&#34;c1&#34;&gt;#服务端修改时间&lt;/span&gt;
+root@debian:/var/www/html# date -s &lt;span class=&#34;m&#34;&gt;12&lt;/span&gt;
+Tue &lt;span class=&#34;m&#34;&gt;02&lt;/span&gt; Mar &lt;span class=&#34;m&#34;&gt;2021&lt;/span&gt; 12:00:00 PM EST
+
+&lt;span class=&#34;c1&#34;&gt;#客户端查看时间&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;ftp文件服务器&#34;&gt;ftp文件服务器&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#需求&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#使用ftp服务上传网页代码。&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#使用vsftpd服务；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#ftp的上传文件根目录即为web服务器的网站根目录；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#ftp登录的用户为ftpuser；&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装&lt;/span&gt;
+apt-get install vsftpd
+
+&lt;span class=&#34;c1&#34;&gt;#备份配置文件&lt;/span&gt;
+cp /etc/vsftpd.conf /etc/vsftpd.conf.bak
+&lt;span class=&#34;c1&#34;&gt;#写入配置文件&lt;/span&gt;
+vim /etc/vsftpd.conf
+ &lt;span class=&#34;nv&#34;&gt;write_enable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;YES  &lt;span class=&#34;c1&#34;&gt;#允许执行写操作&lt;/span&gt;
+ &lt;span class=&#34;nv&#34;&gt;chroot_local_user&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;YES  &lt;span class=&#34;c1&#34;&gt;# 所有用户被限制在ftp目录内，不能跨出该目录，除非有例外情况；&lt;/span&gt;
+ &lt;span class=&#34;nv&#34;&gt;allow_writeable_chroot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;YES    &lt;span class=&#34;c1&#34;&gt;#允许写入跟路径，这条不加容易出现 500&lt;/span&gt;
+ &lt;span class=&#34;nv&#34;&gt;local_root&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/data/share/htdocs/skills &lt;span class=&#34;c1&#34;&gt;## 设置ftp文件主目录（登陆ftp后显示的目录）&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#重启服务&lt;/span&gt;
+systemctl restart vsftpd
+
+&lt;span class=&#34;c1&#34;&gt;#创建根目录&lt;/span&gt;
+mkdir /data/share/htdocs/skills -p
+
+&lt;span class=&#34;c1&#34;&gt;#修改权限&lt;/span&gt;
+chmod &lt;span class=&#34;m&#34;&gt;777&lt;/span&gt; /data/share/htdocs/skills
+
+&lt;span class=&#34;c1&#34;&gt;#创建用户&lt;/span&gt;
+useradd -m ftpuser -d /home/ftpuser
+
+&lt;span class=&#34;c1&#34;&gt;#修改用户密码&lt;/span&gt;
+passwd ftpuser
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#客户机安装ftp&lt;/span&gt;
+apt -y install ftp
+
+&lt;span class=&#34;c1&#34;&gt;#登陆&lt;/span&gt;
+ftp 192.168.174.55
+
+&lt;span class=&#34;c1&#34;&gt;#输入账号密码&lt;/span&gt;
+Name &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;192.168.174.55:root&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;: ftpuser
+&lt;span class=&#34;m&#34;&gt;331&lt;/span&gt; Please specify the password.
+Password:
+&lt;span class=&#34;m&#34;&gt;230&lt;/span&gt; Login successful
+
+&lt;span class=&#34;c1&#34;&gt;#新建文件测试&lt;/span&gt;
+ mkdir &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+
+
+&lt;span class=&#34;c1&#34;&gt;#在服务器查看是否新建成功&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#修改用户密码&lt;/span&gt;
+passwd ftpuser
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;nfs文件共享&#34;&gt;nfs文件共享&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#需求&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#共享/data/share目录；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#用于存储server01主机的web数据；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#仅允许service网段（10.1.100.与172.16.100.）访问该共享。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装&lt;/span&gt;
+apt-get install nfs-common nfs-kernel-server
+
+&lt;span class=&#34;c1&#34;&gt;#创建共享文件夹&lt;/span&gt;
+mkdir /data/share -p
+&lt;span class=&#34;c1&#34;&gt;#修改配置文件&lt;/span&gt;
+vi /etc/exports 
+/data/share     10.1.100.* &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; 172.16.100.*&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;rw,sync,no_root_squash,insecure&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# #共享目录信息，哪个网段可以访问，访问权限， sync同步，数据会先写入到NFS服务器内存中，no_root_squash 共享文件的所述主是远程访问的用户，允许非授权访问&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#重启服务&lt;/span&gt;
+systemctl restart nfs-kernel-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#安装&lt;/span&gt;
+apt-get install nfs-common
+&lt;span class=&#34;c1&#34;&gt;#查看服务端共享出来的文件夹&lt;/span&gt;
+showmount -e 10.1.100.128
+&lt;span class=&#34;c1&#34;&gt;#创建挂载目录&lt;/span&gt;
+mkdir /data/mynfs
+&lt;span class=&#34;c1&#34;&gt;#挂载&lt;/span&gt;
+mount  10.1.100.128:/data/share /data/mynfs
+&lt;span class=&#34;c1&#34;&gt;#开机自动挂载&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/usr/bin/mount  192.168.31.228:/data/share /data/mynfs&amp;#34;&lt;/span&gt;&amp;gt;&amp;gt; /etc/rc.local &lt;span class=&#34;c1&#34;&gt;# /etc/rc.local为开机自启文件&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;smba文件共享&#34;&gt;smba文件共享&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;apt -y install samba  &lt;span class=&#34;c1&#34;&gt;#安装samba服务&lt;/span&gt;
+useradd user          &lt;span class=&#34;c1&#34;&gt;#新建一个用户，用于远程登录&lt;/span&gt;
+smbpasswd -a user     &lt;span class=&#34;c1&#34;&gt;#将用户加入到samba组&lt;/span&gt;
+mkdir /home/share
+chmod &lt;span class=&#34;m&#34;&gt;777&lt;/span&gt; /home/share/
+vi /etc/samba/smb.conf 
+ &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;share&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;comment&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; share           &lt;span class=&#34;c1&#34;&gt;#共享名称&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/home/share          &lt;span class=&#34;c1&#34;&gt;#共享路径&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;public&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;yes                &lt;span class=&#34;c1&#34;&gt;#允许用户访问&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;writable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;yes              &lt;span class=&#34;c1&#34;&gt;#允许写入文件&lt;/span&gt;
+    directory &lt;span class=&#34;nv&#34;&gt;mask&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0775&lt;/span&gt;     &lt;span class=&#34;c1&#34;&gt;#拥有创建目录权限（读写执行）&lt;/span&gt;
+    create &lt;span class=&#34;nv&#34;&gt;mask&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0775&lt;/span&gt;        &lt;span class=&#34;c1&#34;&gt;#拥有创建文件权限&lt;/span&gt;
+    valid &lt;span class=&#34;nv&#34;&gt;users&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; user,root   &lt;span class=&#34;c1&#34;&gt;#允许访问的用户&lt;/span&gt;
+    write &lt;span class=&#34;nv&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; user         &lt;span class=&#34;c1&#34;&gt;#允许可以写入目录的用户&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;browseable&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; yes          &lt;span class=&#34;c1&#34;&gt;#指定该共享目录可以浏览&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;available&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; yes           &lt;span class=&#34;c1&#34;&gt;#使用该共享资源&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#windows配置&lt;/span&gt;
+1.windows关闭防火墙
+2.windows开启所有网络发现，网络共享
+3.在计算机管理里面新建用户
+3.windows新建文件，右键共享，指定用户为新建用户
+
+&lt;span class=&#34;c1&#34;&gt;#Linux配置&lt;/span&gt;
+1.安装cifs-utils
+2.mount.cifs //windows ip地址/Share /挂载位置 -o &lt;span class=&#34;nv&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;用户名
+输入密码查看
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;dhcp&#34;&gt;dhcp&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#需求&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#为客户端分配IP范围是10.10.100.1-10.10.100.50；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#DNS：按照实际需求配置DNS服务器地址选项；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#GATEWAY：按照实际需求配置网关地址选项。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#1.将ip地址改成静态地址&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#2.安装服务&lt;/span&gt;
+apt install  isc-dhcp-server -y
+&lt;span class=&#34;c1&#34;&gt;#3查看网卡名字&lt;/span&gt;
+ip addr
+&lt;span class=&#34;c1&#34;&gt;#4修改监听配置&lt;/span&gt;
+vim  /etc/default/isc-dhcp-server
+ &lt;span class=&#34;nv&#34;&gt;INTERFACESv4&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;ens33&amp;#34;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#ens33网卡名，使用ipv4&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#5备份配置文件&lt;/span&gt;
+mv /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.bak
+&lt;span class=&#34;c1&#34;&gt;#6.写入配置&lt;/span&gt;
+vim /etc/dhcp/dhcpd.conf#&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;格式在下方&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+ddns-update-style none&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+subnet 10.10.100.0 netmask 255.255.255.0 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+ range 10.10.100.1 10.10.100.50&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option subnet-mask 255.255.255.0&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option routers 10.10.100.2&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option domain-name &lt;span class=&#34;s2&#34;&gt;&amp;#34;ChinaSkills.cn&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option domain-name-servers 114.114.114.114&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ default-lease-time 3600&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ max-lease-time 7200&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#7.重启服务&lt;/span&gt;
+systemctl restart isc-dhcp-server
+&lt;span class=&#34;c1&#34;&gt;#8.测试&lt;/span&gt;
+关掉虚拟机的dhcp功能，重新启动一台机器，地址为动态获取。
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;ddns-update-style none&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+subnet &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;子网&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.10.100.0&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt; netmask &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;子网掩码&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.255.255.0&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+ range &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;开始IP&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.10.100.1&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.10.100.50&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option subnet-mask &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;子网掩码&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;255&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.255.255.0&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option routers &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;网关地址&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.10.100.2&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option domain-name &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;域名&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;：dhcp.com&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ option domain-name-servers &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DNS服务器IP地址&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;：114.114.114.114&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ default-lease-time 3600&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+ max-lease-time 7200&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;raid5与lvm&#34;&gt;raid5与lvm&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#需求&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#在虚拟机上添加 4 个 1G 的硬盘；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#创建 raid5，其中一个作为热备盘, 设备名为md0;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#将 md0 设置为 LVM，设备为/dev/vg01/lv01；&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#格式化为 ext4 文件系统;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#开机自动挂载到/data 目录。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#查看四块磁盘是否存在&lt;/span&gt;
+root@debian:~# fdisk -l &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep sd
+
+&lt;span class=&#34;c1&#34;&gt;#安装mdadm&lt;/span&gt;
+root@debian:~#  apt-get install mdadm
+
+&lt;span class=&#34;c1&#34;&gt;#创建raid5&lt;/span&gt;
+root@debian:~# mdadm --create /dev/md0 --name&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Nas --level&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt; --raid-devices&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; --spare-devices&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; /dev/sd&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;bcde&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+
+&lt;span class=&#34;c1&#34;&gt;#安装lvm&lt;/span&gt;
+apt-get install lvm2
+
+&lt;span class=&#34;c1&#34;&gt;#创建卷组&lt;/span&gt;
+root@debian:~# vgcreate vg01 /dev/md0
+  Physical volume &lt;span class=&#34;s2&#34;&gt;&amp;#34;/dev/md0&amp;#34;&lt;/span&gt; successfully created.
+  Volume group &lt;span class=&#34;s2&#34;&gt;&amp;#34;vg01&amp;#34;&lt;/span&gt; successfully created
+
+&lt;span class=&#34;c1&#34;&gt;#创建逻辑卷组&lt;/span&gt;
+root@debian:~# lvcreate -L 1G -n lv01 vg01
+  Logical volume &lt;span class=&#34;s2&#34;&gt;&amp;#34;lv01&amp;#34;&lt;/span&gt; created.
+
+&lt;span class=&#34;c1&#34;&gt;#将逻辑卷格式化&lt;/span&gt;
+root@debian:~# mkfs.ext4 /dev/vg01/lv01
+
+&lt;span class=&#34;c1&#34;&gt;#普通挂载&lt;/span&gt;
+root@debian:~# mount /dev/vg01/lv01 /data/
+
+&lt;span class=&#34;c1&#34;&gt;#开机自动挂载&lt;/span&gt;
+root@debian:~# &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; /dev/vg01/lv01 /data/  defaults &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &amp;gt;&amp;gt; /etc/fstab
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;防火墙配置&#34;&gt;防火墙配置&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;默认阻挡所有流量
+iptables -A INPUT -s 0.0.0.0/0 -j REJECT
+
+&lt;span class=&#34;c1&#34;&gt;#192.168.10.0/24 禁止访问 192.168.1.0/24&lt;/span&gt;
+iptables -A INPUT -s 192.168.10.0/24 -d 192.168.1.0/24 -j REJECT
+&lt;span class=&#34;c1&#34;&gt;#上面的命令将丢掉所有来自 所有 网络的网络包，而将只允许192.168.1.0/24网络和10.1.100.0/24网络通过端口 22 的流入流量。&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#查看规则&lt;/span&gt;
+iptables -L
+&lt;span class=&#34;c1&#34;&gt;#清除所有规则&lt;/span&gt;
+iptables -F
+
+&lt;span class=&#34;c1&#34;&gt;#保存规则&lt;/span&gt;
+iptables-save &amp;gt; /etc/iptables/rules.v4
+
+&lt;span class=&#34;c1&#34;&gt;#载入保存的规则&lt;/span&gt;
+iptables-restore &amp;lt;/etc/iptables/rules.v4
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;其他操作&#34;&gt;其他操作&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#修改欢迎信息&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#vi /etc/motd&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#修改sshd配置文件，取消上次登陆提示信息&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;PrintLastLog&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; no
+&lt;span class=&#34;c1&#34;&gt;#修改环境变量&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#取主机名&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;$HOSTNAME&lt;/span&gt;  
+&lt;span class=&#34;c1&#34;&gt;#取当前系统时间&lt;/span&gt;
+date &lt;span class=&#34;s2&#34;&gt;&amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#查看当前系统发行版本&lt;/span&gt;
+uname -v
+&lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; /etc/os-release
+VERSION_ID
+ID
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/categories/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/linux/">linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/debian10/">debian10</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>[命令] debian10 ufw-service</title>
+                <link>https://lyx926.github.io/posts/work-debian-ufw-service2022-06-30/</link>
+                <guid isPermaLink="true">https://lyx926.github.io/posts/work-debian-ufw-service2022-06-30/</guid>
+                <pubDate>Tue, 28 Jun 2022 01:37:56 &#43;0800</pubDate>
+                
+                    <author>lyx990926@gmail.com (lyx926)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;blockquote&gt;
+&lt;p&gt;debian10 ufw-service&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;安装命令&#34;&gt;安装命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt update
+sudo apt install ufw
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;检查ufw状态&#34;&gt;检查UFW状态&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw status verbose
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;应用配置&#34;&gt;应用配置&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#列出系统上所有应用程序&lt;/span&gt;
+sudo ufw app list
+&lt;span class=&#34;c1&#34;&gt;#例如，要获取有关OpenSSH配置文件的信息&lt;/span&gt;
+sudo ufw app info OpenSSH
+&lt;span class=&#34;c1&#34;&gt;#要将UFW防火墙配置为接受SSH连接&lt;/span&gt;
+sudo ufw allow OpenSSH
+&lt;span class=&#34;c1&#34;&gt;#例如，您的ssh服务器侦听端口2222&lt;/span&gt;
+sudo ufw allow 2222/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;启用与禁用ufw&#34;&gt;启用与禁用UFW&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt;
+sudo ufw disable
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;开放端口&#34;&gt;开放端口&lt;/h3&gt;
+&lt;p&gt;开启http服务需要的80端口:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow http
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;可以使用端口号80代替http配置文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow 80/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;开启https服务需要端口:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow https
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;可以使用端口号443代替https配置文件：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow 443/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;开启tomcat默认使用的8080端口:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow 8080/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;允许网段:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow 8090:9090/tcp
+sudo ufw allow 8090:9090/udp
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;允许IP:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow from 192.168.1.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;允许IP+port:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow from 192.168.1.1 to any port &lt;span class=&#34;m&#34;&gt;22&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;允许子网:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow from 192.168.1.0/24 to any port &lt;span class=&#34;m&#34;&gt;3306&lt;/span&gt;
+sudo ufw allow from 192.168.1.0/24
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;允许连接到特定的网络接口:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo ufw allow in on eth0 to any port &lt;span class=&#34;m&#34;&gt;3306&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;拒绝连接&#34;&gt;拒绝连接&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# allow 换成 deny&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;删除ufw规则&#34;&gt;删除UFW规则&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#查看规则&lt;/span&gt;
+sudo ufw status numbered
+&lt;span class=&#34;c1&#34;&gt;#通过规则号删除&lt;/span&gt;
+sudo ufw delete &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#通过端口号删除&lt;/span&gt;
+sudo ufw delete allow &lt;span class=&#34;m&#34;&gt;8069&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;重置ufw&#34;&gt;重置UFW&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#重置UFW将会禁用UFW，并删除所有活动规则。&lt;/span&gt;
+sudo ufw reset
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;端口转发&#34;&gt;端口转发&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#配置文件&lt;/span&gt;
+vi etc/default/ufw
+&lt;span class=&#34;nv&#34;&gt;default_forward_policy&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;accept&amp;#34;&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#/etc/ufw/sysctl.conf 允许ipv4转发&lt;/span&gt;
+net/ipv4/ip_forward&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#iptables方式&lt;/span&gt;
+iptables -t nat -A PREROUTING -p tcp --dport &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;端口号&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; -j DNAT --to-destination &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;目标IP&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+iptables -t nat -A POSTROUTING -p tcp -d &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;目标IP&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; --dport &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;端口号&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; -j SNAT --to-source &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;中转服务器IP&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#ufw方式&lt;/span&gt;
+vi /etc/ufw/before.rules
+
+&lt;span class=&#34;c1&#34;&gt;#注意*nat，以COMMIT结尾才会生效。*filter一个COMMIT,*nat一个COMMIT&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;#不能总用一个COMMIT。&lt;/span&gt;
+*nat
+:PREROUTING ACCEPT &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0:0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+:POSTROUTING ACCEPT &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;0:0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;# Port Forwardings &lt;/span&gt;
+-A PREROUTING -p tcp --dport &lt;span class=&#34;m&#34;&gt;10010&lt;/span&gt; -j DNAT --to-destination 103.79.78.76
+-A POSTROUTING -p tcp -d 103.79.78.76 --dport &lt;span class=&#34;m&#34;&gt;10010&lt;/span&gt; -j SNAT --to-source 183.60.100.8
+
+&lt;span class=&#34;c1&#34;&gt;# don&amp;#39;t delete the &amp;#39;COMMIT&amp;#39; line or these rules won&amp;#39;t be processed&lt;/span&gt;
+COMMIT
+
+&lt;span class=&#34;c1&#34;&gt;#重新启动ufw&lt;/span&gt;
+sudo ufw disable &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo ufw &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt;
+
+&lt;span class=&#34;c1&#34;&gt;#查看iptables生效状态&lt;/span&gt;
+iptables -t nat -L -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/categories/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/%E5%91%BD%E4%BB%A4/">命令</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/linux/">linux</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/debian10/">debian10</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://lyx926.github.io/tags/ufw/">ufw</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>[命令] find Command</title>
                 <link>https://lyx926.github.io/posts/work-hugo2022-05-24/</link>
                 <guid isPermaLink="true">https://lyx926.github.io/posts/work-hugo2022-05-24/</guid>
@@ -1173,8 +2612,8 @@ xargs 是一个强有力的命令，它能够捕获一个命令的输出，然�
         
             <item>
                 <title>[命令] Docker Command</title>
-                <link>https://lyx926.github.io/posts/work-dockercommand2022-04-27/</link>
-                <guid isPermaLink="true">https://lyx926.github.io/posts/work-dockercommand2022-04-27/</guid>
+                <link>https://lyx926.github.io/posts/work-docker-command2022-04-27/</link>
+                <guid isPermaLink="true">https://lyx926.github.io/posts/work-docker-command2022-04-27/</guid>
                 <pubDate>Wed, 27 Apr 2022 01:37:56 &#43;0800</pubDate>
                 
                     <author>lyx990926@gmail.com (lyx926)</author>
@@ -1411,8 +2850,8 @@ docker cp &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;虚拟机&lt;span class=&#
         
             <item>
                 <title>[脚本] SpringBoot-Vue Docker</title>
-                <link>https://lyx926.github.io/posts/work-dockershell2021-09-09/</link>
-                <guid isPermaLink="true">https://lyx926.github.io/posts/work-dockershell2021-09-09/</guid>
+                <link>https://lyx926.github.io/posts/work-docker-command2021-09-09/</link>
+                <guid isPermaLink="true">https://lyx926.github.io/posts/work-docker-command2021-09-09/</guid>
                 <pubDate>Thu, 09 Sep 2021 01:37:56 &#43;0800</pubDate>
                 
                     <author>lyx990926@gmail.com (lyx926)</author>
