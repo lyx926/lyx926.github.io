@@ -11,6 +11,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "笔记",
+      icon: "laptop-code",
+      prefix: "note/",
+      link: "note/",
+      children: "structure",
+    },
+    {
       text: "文档",
       icon: "book",
       prefix: "guide/",
