@@ -9,7 +9,6 @@ tset
 - 1
 - 2
 - 3
-- 4
 
 ```shell
 mkdir /root/root/abc -p
