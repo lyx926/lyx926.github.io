@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lyx926.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/styles/config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/styles/config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/styles/palette.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/styles/palette.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README_bak.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/disable.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/disable.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/encrypt.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/encrypt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide/bar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide/bar/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide/bar/baz.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide/bar/baz.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide/foo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide/foo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guide/foo/ray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/guide/foo/ray.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704436014096</updated>
-      <workItem from="1704436016376" duration="2026000" />
+      <workItem from="1704436016376" duration="2645000" />
     </task>
     <servers />
   </component>
