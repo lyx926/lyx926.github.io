@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://avatars.githubusercontent.com/u/44796278?v=4",
+  logo: "/logo.svg",
 
   repo: "lyx926/lyx926.github.io",
 

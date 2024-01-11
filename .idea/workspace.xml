@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/command/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/life/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/links/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/links/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plan/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plan/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/soft/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/soft/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/think/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/think/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/useful/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/useful/mysql.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/public/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/public/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/markdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/page.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes/mysql.md" beforeDir="false" />
-    </list>
+    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +70,7 @@
       <workItem from="1704851948141" duration="1140000" />
       <workItem from="1704855489781" duration="595000" />
       <workItem from="1704938128707" duration="8847000" />
+      <workItem from="1704960870535" duration="727000" />
     </task>
     <servers />
   </component>
@@ -128,6 +96,36 @@
             <State />
           </value>
         </entry>
+        <entry key="e8568d55-7491-4f9a-ad0a-11b246ce810b">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/workhome/githubhome/lyx926.github.io/src/.vuepress/public" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e8568d55-7491-4f9a-ad0a-11b246ce810b" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
