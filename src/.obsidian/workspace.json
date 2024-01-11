@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "384ad53a59a165f1",
+        "id": "898931041b204ad0",
         "type": "tabs",
         "children": [
           {
-            "id": "d306c3f24467c26d",
+            "id": "6e5202ef8056a3c4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,6 +138,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d306c3f24467c26d",
-  "lastOpenFiles": []
+  "active": "07efd63961b26380",
+  "lastOpenFiles": [
+    "links/README.md~",
+    "soft/新建文件夹",
+    "skill/command/ufw.md",
+    "skill/command/nano.md",
+    "skill/command/linux.md",
+    "skill/command/hugo.md",
+    "skill/command/https.md",
+    "skill/command/git.md",
+    "skill/command/find.md",
+    "skill/windows/windows-mysql备份.md",
+    "skill/windows/windows-kill-port.md",
+    "skill/windows/windows-jar.md",
+    "skill/nginx/nginx默认配置文件.md",
+    "skill/mysql/mysql配置优化.md",
+    "skill/mysql",
+    "skill/linux/linux-offline-docker.md",
+    "skill/linux/linux-ftp.md",
+    "skill/linux/linux-scp.md",
+    "skill/windows",
+    "skill/新建文件夹",
+    "skill/linux",
+    "skill/docker/mysql-import-export.md",
+    "skill/docker/mysql-backup.md",
+    "skill/docker/docker-offline-make.md",
+    "skill/docker/docker-offline-install.md",
+    "skill/docker/docker-gitea-drone.md",
+    "skill/docker/docker-compose.md",
+    "skill/script/README.md",
+    "skill/docker/README.md",
+    "skill/command",
+    "skill/script",
+    "skill/server",
+    "skill/nginx",
+    "skill/sql",
+    "script/docker/docker.md",
+    "skill/foo/README.md",
+    "未命名.canvas"
+  ]
 }

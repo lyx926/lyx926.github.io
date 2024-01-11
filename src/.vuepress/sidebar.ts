@@ -45,15 +45,10 @@ export default sidebar({
         prefix: "foo/",
         children: "structure",
     }],
-    "/script/": ["", {
-        text: "bar",
+    "/skill/": [{
+        text: "docker",
         icon: "book",
-        prefix: "bar/",
-        children: "structure",
-    }, {
-        text: "foo",
-        icon: "book",
-        prefix: "foo/",
+        prefix: "docker/",
         children: "structure",
     }],
     "/life/": ["", {
@@ -67,17 +62,7 @@ export default sidebar({
         prefix: "foo/",
         children: "structure",
     }],
-    "/links/": ["", {
-        text: "bar",
-        icon: "book",
-        prefix: "bar/",
-        children: "structure",
-    }, {
-        text: "foo",
-        icon: "book",
-        prefix: "foo/",
-        children: "structure",
-    }],
+    "/links/": [],
     "/other/": ["", {
         text: "bar",
         icon: "book",
@@ -90,17 +75,6 @@ export default sidebar({
         children: "structure",
     }],
     "/plan/": ["", {
-        text: "bar",
-        icon: "book",
-        prefix: "bar/",
-        children: "structure",
-    }, {
-        text: "foo",
-        icon: "book",
-        prefix: "foo/",
-        children: "structure",
-    }],
-    "/soft/": ["", {
         text: "bar",
         icon: "book",
         prefix: "bar/",

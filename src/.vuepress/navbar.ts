@@ -54,44 +54,7 @@ export default navbar([/*
             },
         ],
     },
-    {
-        text: "命令",
-        icon: "book",
-        prefix: "/command/",
-        children: [
-            {
-                text: "Bar",
-                icon: "lightbulb",
-                prefix: "bar/",
-                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
-            },
-            {
-                text: "Foo",
-                icon: "lightbulb",
-                prefix: "foo/",
-                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
-            },
-        ],
-    },
-    {
-        text: "脚本",
-        icon: "book",
-        prefix: "/script/",
-        children: [
-            {
-                text: "Bar",
-                icon: "lightbulb",
-                prefix: "bar/",
-                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
-            },
-            {
-                text: "Foo",
-                icon: "lightbulb",
-                prefix: "foo/",
-                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
-            },
-        ],
-    },
+    "/skill/",
     {
         text: "生活",
         icon: "book",
@@ -111,25 +74,7 @@ export default navbar([/*
             },
         ],
     },
-    {
-        text: "链接",
-        icon: "book",
-        prefix: "/links/",
-        children: [
-            {
-                text: "Bar",
-                icon: "lightbulb",
-                prefix: "bar/",
-                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
-            },
-            {
-                text: "Foo",
-                icon: "lightbulb",
-                prefix: "foo/",
-                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
-            },
-        ],
-    },
+    "/links/",
     {
         text: "其他",
         icon: "book",
@@ -153,25 +98,6 @@ export default navbar([/*
         text: "计划",
         icon: "book",
         prefix: "/plan/",
-        children: [
-            {
-                text: "Bar",
-                icon: "lightbulb",
-                prefix: "bar/",
-                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
-            },
-            {
-                text: "Foo",
-                icon: "lightbulb",
-                prefix: "foo/",
-                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
-            },
-        ],
-    },
-    {
-        text: "软件",
-        icon: "book",
-        prefix: "/soft/",
         children: [
             {
                 text: "Bar",

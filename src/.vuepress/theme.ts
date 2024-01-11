@@ -184,4 +184,25 @@ export default hopeTheme({
     //   },
     // },
   },
+
+  blog: {
+    medias: {
+      // GitHub 已经内置了图标
+      GitHub: "https://github.com/Mister-Hope",
+      // 一个自定义媒体 MediaX (仅作示例)
+      MediaX: [
+        // 链接
+        "https://mediax.com/UserX/",
+        // 图标 SVG 字符串
+        "<svg ....</svg>",
+      ],
+      // 一个自定义媒体 MediaY (仅作示例)
+      // MediaY: [
+      //   // 链接
+      //   "https://mediay.com/UserY/",
+      //   // 图标地址
+      //   path.resolve(__dirname, "icons/mediay.svg"),
+      // ],
+    },
+  },
 });

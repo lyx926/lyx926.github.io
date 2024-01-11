@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="" />
+    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/navbar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/bar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/bar/baz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/foo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/foo/ray.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/poem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/links/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/bar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/bar/baz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/foo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/foo/ray.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/links/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/bar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/bar/baz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/foo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/foo/ray.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/poem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/bar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/bar/baz.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/foo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/foo/ray.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/soft/poem.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,23 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workhome/githubhome/my-docs&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\app\\JetBrains\\Toolbox\\WebStorm\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/workhome/githubhome/lyx926.github.io/src/script/docker",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\app\\JetBrains\\Toolbox\\WebStorm\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workhome\githubhome\lyx926.github.io\src\script\docker" />
+      <recent name="D:\workhome\githubhome\lyx926.github.io\src\.vuepress\public" />
       <recent name="D:\workhome\githubhome\lyx926.github.io\src\notes\poem" />
       <recent name="D:\workhome\githubhome\lyx926.github.io\src\notes" />
       <recent name="D:\workhome\githubhome\lyx926.github.io\src" />
-      <recent name="D:\workhome\githubhome\lyx926.github.io\src\.vuepress\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,7 +104,7 @@
       <workItem from="1704851948141" duration="1140000" />
       <workItem from="1704855489781" duration="595000" />
       <workItem from="1704938128707" duration="8847000" />
-      <workItem from="1704960870535" duration="727000" />
+      <workItem from="1704960870535" duration="6929000" />
     </task>
     <servers />
   </component>
