@@ -1,3 +1,8 @@
+---
+title: centos
+icon: file
+---
+
 ### 常用命令
 
 ```shell

@@ -18,8 +18,6 @@ export default defineUserConfig({
 // .vuepress/config.ts
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-// @ts-ignore
-import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
     base: "/",
@@ -28,10 +26,5 @@ export default defineUserConfig({
     description: "",
     theme,
     plugins: [
-        searchProPlugin({
-            // 配置选项
-            indexContent:true,
-            autoSuggestions:true,
-        }),
     ],
 });

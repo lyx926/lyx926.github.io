@@ -1,3 +1,8 @@
+---
+title: nano
+icon: file
+---
+
 ### 安装命令
 
 ```shell

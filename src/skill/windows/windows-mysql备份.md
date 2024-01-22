@@ -1,3 +1,8 @@
+---
+title: 备份mysql
+icon: file
+---
+
 ```shell
 rem auther:lyx926
 rem ******MySQL backup start********

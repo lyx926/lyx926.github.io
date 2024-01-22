@@ -1,3 +1,8 @@
+---
+title: ftp
+icon: file
+---
+
 ### 上传
 
 ```shell

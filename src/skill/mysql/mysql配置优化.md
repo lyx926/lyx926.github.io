@@ -1,3 +1,8 @@
+---
+title: mysql配置优化
+icon: file
+---
+
 ```shell
 [mysqld]  
 #server-id=513306 # Mysql唯一标识，一个集群中唯一；  

@@ -23,17 +23,7 @@ export default sidebar({
         },
       ],*/
     "/": [],
-    "/clause/": ["", {
-        text: "bar",
-        icon: "book",
-        prefix: "bar/",
-        children: "structure",
-    }, {
-        text: "foo",
-        icon: "book",
-        prefix: "foo/",
-        children: "structure",
-    }],
+    "/clause/": [],
     "/command/": ["", {
         text: "bar",
         icon: "book",
@@ -46,11 +36,51 @@ export default sidebar({
         children: "structure",
     }],
     "/skill/": [{
+        text: "command",
+        icon: "book",
+        prefix: "command/",
+        children: "structure",
+    },{
         text: "docker",
         icon: "book",
         prefix: "docker/",
         children: "structure",
-    }],
+    },{
+        text: "java",
+        icon: "book",
+        prefix: "java/",
+        children: "structure",
+    },{
+        text: "linux",
+        icon: "book",
+        prefix: "linux/",
+        children: "structure",
+    },{
+        text: "mysql",
+        icon: "book",
+        prefix: "mysql/",
+        children: "structure",
+    },{
+        text: "nginx",
+        icon: "book",
+        prefix: "nginx/",
+        children: "structure",
+    },{
+        text: "script",
+        icon: "book",
+        prefix: "script/",
+        children: "structure",
+    },{
+        text: "vue",
+        icon: "book",
+        prefix: "vue/",
+        children: "structure",
+    },{
+        text: "windows",
+        icon: "book",
+        prefix: "windows/",
+        children: "structure",
+    },],
     "/life/": ["", {
         text: "bar",
         icon: "book",

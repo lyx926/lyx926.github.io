@@ -1,3 +1,8 @@
+---
+title: scp
+icon: file
+---
+
 ### 上传
 ```shell
 #!/bin/bash

@@ -1,3 +1,8 @@
+---
+title: nginx默认配置
+icon: file
+---
+
 ```shell
 server {
     listen       80;

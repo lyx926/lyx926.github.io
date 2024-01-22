@@ -1,3 +1,8 @@
+---
+title: git
+icon: file
+---
+
 ### Git Commit（提交）
 
 ```shell

@@ -45,6 +45,8 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    searchPro: true,
+    blog: true,
     // 你应该自行生成自己的评论服务
     comment: {
       provider: "Giscus",

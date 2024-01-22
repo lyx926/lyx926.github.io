@@ -35,25 +35,7 @@ export default navbar([/*
         icon: "book",
         link: "https://theme-hope.vuejs.press/zh/",
     },
-    {
-        text: "短句",
-        icon: "book",
-        prefix: "/clause/",
-        children: [
-            {
-                text: "Bar",
-                icon: "lightbulb",
-                prefix: "bar/",
-                children: ["baz", {text: "...", icon: "ellipsis", link: ""}],
-            },
-            {
-                text: "Foo",
-                icon: "lightbulb",
-                prefix: "foo/",
-                children: ["ray", {text: "...", icon: "ellipsis", link: ""}],
-            },
-        ],
-    },
+    "/clause/",
     "/skill/",
     {
         text: "生活",

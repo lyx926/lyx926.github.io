@@ -3,5 +3,5 @@ icon: 'book'
 title: 短句
 ---
 
-- [bar](/clause/bar/)
-- [foo](/clause/foo/)
+### 我的生命是一万次春和景明
+### 。。。

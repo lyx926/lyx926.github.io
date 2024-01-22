@@ -1,3 +1,8 @@
+---
+title: ufw
+icon: file
+---
+
 ### 安装命令
 
 ```shell
