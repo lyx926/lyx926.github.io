@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="" />
+    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,8 +76,16 @@
       <workItem from="1705285996827" duration="3031000" />
       <workItem from="1705629294427" duration="10619000" />
       <workItem from="1705905788752" duration="3522000" />
-      <workItem from="1705972331978" duration="811000" />
+      <workItem from="1705972331978" duration="1121000" />
     </task>
+    <task id="LOCAL-00001" summary="aa">
+      <created>1705977479505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705977479505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +142,9 @@
         <entry key="e8568d55-7491-4f9a-ad0a-11b246ce810b" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
 </project>
