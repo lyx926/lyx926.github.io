@@ -279,15 +279,14 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 
 [//]: # (配置项的相关说明详见 [项目主页配置]&#40;https://theme-hope.vuejs.press/zh/guide/layout/home/&#41;。)
 
-now => <span id="currentTime"></span>
-
 ```shell
 (\ _/)  🟡
 ( 'ㅅ')
 /> 🥕<\
 ```
 
-miss => <span id="miss"></span>
+### Today's date <span id="currentTime"></span>
+### Has been running <span id="miss"></span>
 
 <script>
     // JavaScript部分

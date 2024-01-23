@@ -2,7 +2,7 @@
 title: docker mysql 备份
 icon: file
 ---
-> [(98条消息) docker版mysql:5.7.34 免密码使用mysqldump备份_mysqldump免密_昜羊的博客-CSDN博客](https://blog.csdn.net/zyy247796143/article/details/124355917)
+[https://blog.csdn.net/zyy247796143/article/details/124355917](https://blog.csdn.net/zyy247796143/article/details/124355917)
 
 ### 备份脚本
 

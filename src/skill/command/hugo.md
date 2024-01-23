@@ -1,5 +1,5 @@
 ---
-title: find
+title: hugo
 icon: file
 ---
 

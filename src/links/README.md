@@ -5,8 +5,6 @@ title: 链接
 
 ### file工具
 
----
-
 [emeditor](https://www.emeditor.com/)
 
 [Notepad3](https://github.com/rizonesoft/Notepad3/)
@@ -19,18 +17,17 @@ title: 链接
 
 [listary](https://www.listary.com/)
 
+---
 
 ### git和svn工具
-
----
 
 [tortoisegit](https://tortoisegit.org/)
 
 [tortoisesvn](https://tortoisesvn.net/)
 
-### mac软件
-
 ---
+
+### mac软件
 
 [appstorrent](https://appstorrent.ru/)
 
@@ -58,9 +55,9 @@ title: 链接
 
 [lizhi](https://store.lizhi.io/)
 
-### os系统
-
 ---
+
+### os系统
 
 [itellyou](https://next.itellyou.cn/)
 
@@ -68,9 +65,9 @@ title: 链接
 
 [ubuntu](https://cn.ubuntu.com/download/)
 
-### ssh工具
-
 ---
+
+### ssh工具
 
 [hostbuf](http://www.hostbuf.com/)
 
@@ -78,9 +75,9 @@ title: 链接
 
 [putty](https://www.putty.be/)
 
-### AI开发插件
-
 ---
+
+### AI开发插件
 
 [通意灵码-阿里](https://tongyi.aliyun.com/lingma/)
 [idea插件](https://plugins.jetbrains.com/plugin/17809-tongyi-lingma--your-ai-coding-assistant-type-less-code-more-/)
@@ -108,3 +105,5 @@ title: 链接
 
 [AIXcoder](https://www.aixcoder.com/#/)
 [idea插件](https://plugins.jetbrains.com/plugin/13574-aixcoder-code-completer/)
+
+---

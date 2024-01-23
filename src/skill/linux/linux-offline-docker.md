@@ -5,10 +5,19 @@ icon: file
 
 ### 下载离线包
 
->https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/
->containerd.io_1.6.9-1_amd64.deb
->docker-ce_20.10.23~3-0~ubuntu-jammy_amd64.deb
->docker-ce-cli_20.10.23~3-0~ubuntu-jammy_amd64.deb
+[https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/](https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/)
+
+```shell
+containerd.io_1.6.9-1_amd64.deb
+```
+
+```shell
+docker-ce_20.10.23~3-0~ubuntu-jammy_amd64.deb
+```
+
+```shell
+docker-ce-cli_20.10.23~3-0~ubuntu-jammy_amd64.deb
+```
 
 ### 安装步骤
 

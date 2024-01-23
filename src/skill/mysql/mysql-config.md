@@ -1,5 +1,5 @@
 ---
-title: mysql配置优化
+title: mysql 配置
 icon: file
 ---
 
