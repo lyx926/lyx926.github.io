@@ -279,36 +279,70 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 
 [//]: # (配置项的相关说明详见 [项目主页配置]&#40;https://theme-hope.vuejs.press/zh/guide/layout/home/&#41;。)
 
+now => <span id="currentTime"></span>
+
 ```shell
 (\ _/)  🟡
 ( 'ㅅ')
 /> 🥕<\
 ```
 
-// HTML部分
-<div id="currentTime"></div>
+miss => <span id="miss"></span>
 
 <script>
-
- 
-// JavaScript部分
-function updateCurrentTime() {
-    var currentTime = new Date(); // 创建一个表示当前日期和时间的Date对象
+    // JavaScript部分
+    function updateCurrentTime() {
+        // 如果 document 已经定义，则执行其他操作或逻辑
+        var currentPathname = window.location.pathname;
+        // console.log(currentPathname==='/');
+        if (currentPathname === '/') {
+            setTimeout(() => {
+                const stimeDDD = Date.parse(new Date('2023-10-24 20:53:00')) // 2023年10月24日 20:53
+                const etimeDDD = Date.parse(new Date()) // 当前时间
+                timeDifference(etimeDDD, stimeDDD)
+                currentTime()
+            }, 500)
+        }
+    }
     
-    var hours = currentTime.getHours(); // 获取小时数（0-23）
-    var minutes = currentTime.getMinutes(); // 获取分钟数（0-59）
-    var seconds = currentTime.getSeconds(); // 获取秒数（0-59）
+    function timeDifference(etimeDDD, stimeDDD) {
+        // 两个时间戳相差的毫秒数
+        const usedTimeDDD = etimeDDD - stimeDDD
+        // 计算相差的天数
+        const daysDDD = Math.floor(usedTimeDDD / (24 * 3600 * 1000))
+        // 计算天数后剩余的毫秒数
+        const leave1DDD = usedTimeDDD % (24 * 3600 * 1000)
+        // 计算出小时数
+        const hoursDDD = Math.floor(leave1DDD / (3600 * 1000))
+        // 计算小时数后剩余的毫秒数
+        const leave2DDD = leave1DDD % (3600 * 1000)
+        // 计算相差分钟数
+        const minutesDDD = Math.floor(leave2DDD / (60 * 1000))
+        // 计算分钟数后剩余的毫秒数
+        const leave3DDD = leave2DDD % (60 * 1000)
+        // 计算相差秒数
+        const secondDDD = Math.floor(leave3DDD / 1000)
+        const timeDDD = daysDDD + '天' + hoursDDD + '时' + minutesDDD + '分' + secondDDD + '秒'
+        document.getElementById('miss').innerHTML = timeDDD;
+    }
     
-    var formattedTime = formatTime(hours) + ":" + formatTime(minutes) + ":" + formatTime(seconds); // 格式化为"hh:mm:ss"形式
+    function currentTime() {
+        var currentTime = new Date(); // 创建一个表示当前日期和时间的Date对象
+        var date = currentTime.toLocaleDateString(); // 获取小时数（0-23）
+        var hours = currentTime.getHours(); // 获取小时数（0-23）
+        var minutes = currentTime.getMinutes(); // 获取分钟数（0-59）
+        var seconds = currentTime.getSeconds(); // 获取秒数（0-59）
+        var formattedTime = date + "\t" + formatTime(hours) + ":" + formatTime(minutes) + ":" + formatTime(
+        seconds); // 格式化为"hh:mm:ss"形式
+        document.getElementById("currentTime").innerHTML = formattedTime; // 将格式化后的时间显示在指定元素中
+    }
     
-    document.getElementById("currentTime").innerHTML = formattedTime; // 将格式化后的时间显示在指定元素中
-}
-if (typeof document != 'undefined') {
-setInterval(updateCurrentTime, 1000); // 每隔1秒更新一次当前时间
-}
- 
-function formatTime(time) {
-    return time < 10 ? "0" + time : time; // 如果时、分、秒只有一位数则补上前导零
-}
-console.info('123test')
+    if (typeof document != 'undefined') {
+        setInterval(updateCurrentTime, 1000); // 每隔1秒更新一次当前时间
+    }
+    
+    function formatTime(time) {
+        return time < 10 ? "0" + time : time; // 如果时、分、秒只有一位数则补上前导零
+    }
+    console.info('script run success ^_^')
 </script>
