@@ -292,28 +292,24 @@ miss => <span id="miss"></span>
 <script>
     //获取当前日期和时间
     function updateClock() {
-
         // 2023年10月24日 20:53
         const stimeDDD = Date.parse(new Date('2023-10-24 20:53:00'))
         // 当前时间
         const etimeDDD = Date.parse(new Date())
-//页面解析到当前为止所有的script标签
-var js = document.scripts;
-//js[js.length - 1] 就是当前的js文件的路径
-// js = js[js.length - 1].src.substring(0, js[js.length - 1].src.lastIndexOf("/") + 1);
-js = js[js.length - 1].baseURI.lastIndexOf("/")
-//输出当前js文件所在的目录
-
-        // var currentPathname = window.location.pathname;
-        // console.log(currentPathname==='/');
-        if (js==21) {
-            setTimeout(() => {
-                timeDifference(etimeDDD, stimeDDD)
-                now()
-            }, 500)
+        if (typeof document === 'undefined') {
+            // 如果 document 未被定义，则跳过相关操作或逻辑
+        } else {
+            // 如果 document 已经定义，则执行其他操作或逻辑
+            var currentPathname = window.location.pathname;
+            // console.log(currentPathname==='/');
+            if (currentPathname === '/') {
+                setTimeout(() => {
+                    timeDifference(etimeDDD, stimeDDD)
+                    now()
+                }, 500)
+            }
         }
     }
-
     // 日期差
     function timeDifference(etimeDDD, stimeDDD) {
         // 两个时间戳相差的毫秒数
@@ -333,10 +329,8 @@ js = js[js.length - 1].baseURI.lastIndexOf("/")
         // 计算相差秒数
         const secondDDD = Math.floor(leave3DDD / 1000)
         const timeDDD = daysDDD + '天' + hoursDDD + '时' + minutesDDD + '分' + secondDDD + '秒'
-
         document.getElementById('miss').innerHTML = timeDDD;
     }
-
     // 此刻
     function now() {
         var now = new Date();
@@ -356,6 +350,5 @@ js = js[js.length - 1].baseURI.lastIndexOf("/")
         }
         return i;
     }
-
     setInterval(updateClock, 1000); // 每秒更新一次
 </script>
