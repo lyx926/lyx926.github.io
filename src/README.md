@@ -284,3 +284,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 ( 'ㅅ')
 /> 🥕<\
 ```
+
+<script>
+console.info('123')
+</script>
