@@ -303,8 +303,9 @@ function updateCurrentTime() {
     
     document.getElementById("currentTime").innerHTML = formattedTime; // 将格式化后的时间显示在指定元素中
 }
- 
+if (typeof document != 'undefined') {
 setInterval(updateCurrentTime, 1000); // 每隔1秒更新一次当前时间
+}
  
 function formatTime(time) {
     return time < 10 ? "0" + time : time; // 如果时、分、秒只有一位数则补上前导零
