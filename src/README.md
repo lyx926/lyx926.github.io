@@ -285,6 +285,29 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 /> 🥕<\
 ```
 
+// HTML部分
+<div id="currentTime"></div>
+
 <script>
-console.info('123')
+
+ 
+// JavaScript部分
+function updateCurrentTime() {
+    var currentTime = new Date(); // 创建一个表示当前日期和时间的Date对象
+    
+    var hours = currentTime.getHours(); // 获取小时数（0-23）
+    var minutes = currentTime.getMinutes(); // 获取分钟数（0-59）
+    var seconds = currentTime.getSeconds(); // 获取秒数（0-59）
+    
+    var formattedTime = formatTime(hours) + ":" + formatTime(minutes) + ":" + formatTime(seconds); // 格式化为"hh:mm:ss"形式
+    
+    document.getElementById("currentTime").innerHTML = formattedTime; // 将格式化后的时间显示在指定元素中
+}
+ 
+setInterval(updateCurrentTime, 1000); // 每隔1秒更新一次当前时间
+ 
+function formatTime(time) {
+    return time < 10 ? "0" + time : time; // 如果时、分、秒只有一位数则补上前导零
+}
+console.info('123test')
 </script>
