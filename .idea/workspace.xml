@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/bar/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/bar/baz.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/foo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/foo/ray.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/mysql.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/poem.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/find.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/find.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/git.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/git.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/https.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/https.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/hugo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/hugo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/linux.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/nano.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/nano.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/ufw.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/ufw.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/linux/linux-ftp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/linux/linux-ftp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/linux/linux-offline-docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/linux/linux-offline-docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/linux/linux-scp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/linux/linux-scp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/mysql/mysql配置优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/mysql/mysql配置优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/nginx/nginx默认配置文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/nginx/nginx默认配置文件.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/windows/windows-jar.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/windows/windows-jar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/windows/windows-kill-port.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/windows/windows-kill-port.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/windows/windows-mysql备份.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/windows/windows-mysql备份.md" afterDir="false" />
-    </list>
+    <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +74,7 @@
       <workItem from="1705285996827" duration="3031000" />
       <workItem from="1705629294427" duration="10619000" />
       <workItem from="1705905788752" duration="3522000" />
+      <workItem from="1705972331978" duration="811000" />
     </task>
     <servers />
   </component>
