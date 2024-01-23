@@ -297,10 +297,16 @@ miss => <span id="miss"></span>
         const stimeDDD = Date.parse(new Date('2023-10-24 20:53:00'))
         // 当前时间
         const etimeDDD = Date.parse(new Date())
+//页面解析到当前为止所有的script标签
+var js = document.scripts;
+//js[js.length - 1] 就是当前的js文件的路径
+// js = js[js.length - 1].src.substring(0, js[js.length - 1].src.lastIndexOf("/") + 1);
+js = js[js.length - 1].baseURI.lastIndexOf("/")
+//输出当前js文件所在的目录
 
-        var currentPathname = window.location.pathname;
+        // var currentPathname = window.location.pathname;
         // console.log(currentPathname==='/');
-        if (currentPathname === '/') {
+        if (js==21) {
             setTimeout(() => {
                 timeDifference(etimeDDD, stimeDDD)
                 now()
