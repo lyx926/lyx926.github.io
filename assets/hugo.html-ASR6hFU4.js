@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-x3n3nnut.js";import{o,c as a,b as e,d as r}from"./app-1ciKOjqT.js";const c={},s=e("h1",{id:"暂无",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#暂无","aria-hidden":"true"},"#"),r(" 暂无")],-1),n=[s];function _(d,h){return o(),a("div",null,n)}const f=t(c,[["render",_],["__file","hugo.html.vue"]]);export{f as default};
