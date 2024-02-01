@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="663237b0-be78-4339-9018-fad9d7053f47" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clause/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/clause/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/links/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/links/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/command/hugo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/command/hugo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/docker/mysql-backup.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/docker/mysql-backup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/linux/linux-offline-docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/skill/linux/linux-offline-docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skill/mysql/mysql配置优化.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +21,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/workhome/githubhome/lyx926.github.io/src/skill/mysql",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\app\\JetBrains\\Toolbox\\WebStorm\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workhome/githubhome/lyx926.github.io/src/skill/mysql&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\app\\JetBrains\\Toolbox\\WebStorm\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workhome\githubhome\lyx926.github.io\src\skill\mysql" />
@@ -84,7 +76,13 @@
       <workItem from="1705285996827" duration="3031000" />
       <workItem from="1705629294427" duration="10619000" />
       <workItem from="1705905788752" duration="3522000" />
-      <workItem from="1705972331978" duration="8289000" />
+      <workItem from="1705972331978" duration="8771000" />
+      <workItem from="1706064116044" duration="1104000" />
+      <workItem from="1706065501208" duration="1476000" />
+      <workItem from="1706148775542" duration="46000" />
+      <workItem from="1706148837554" duration="14898000" />
+      <workItem from="1706495108606" duration="2186000" />
+      <workItem from="1706667178520" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="aa">
       <created>1705977479505</created>

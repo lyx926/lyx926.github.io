@@ -296,7 +296,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
         // console.log(currentPathname==='/');
         if (currentPathname === '/') {
             setTimeout(() => {
-                const stimeDDD = Date.parse(new Date('2023-10-24 20:53:00')) // 2023年10月24日 20:53
+                const stimeDDD = Date.parse(new Date('2023-10-24 20:51:00')) // 2023年10月24日 20:51
                 const etimeDDD = Date.parse(new Date()) // 当前时间
                 timeDifference(etimeDDD, stimeDDD)
                 currentTime()
