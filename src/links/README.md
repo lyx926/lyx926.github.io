@@ -29,31 +29,57 @@ title: 链接
 
 ### mac软件
 
+[macwk](https://macwk.cn/)
+
+[macwk](https://macwk.com.cn/)
+
+[xmac](https://xmac.app/)
+
+[macked](https://macked.app/)
+
 [appstorrent](https://appstorrent.ru/)
 
-[macapp](https://macapp.org.cn/)
-
-[macyy](https://www.macyy.cn/)
-
-[yyzyxz](https://www.yyzyxz.net/)
-
-[mac-torrent-download](http://mac-torrent-download.net/)
+[maczz](https://maczz.net/)
 
 [xclient](https://xclient.info/)
 
-[waitsun](https://www.waitsun.com/)
-
-[cmacked](https://apps.cmacked.com/)
+[cmacked](https://cmacked.com/)
 
 [torrentmac](https://www.torrentmac.net/)
-
-[foxirj](https://foxirj.com/)
 
 [macbl](https://www.macbl.com/)
 
 [macat](https://www.macat.vip/)
 
 [lizhi](https://store.lizhi.io/)
+
+[macxf](https://soft.macxf.com/)
+
+[macxj](https://www.macxj.com/)
+
+[macapp](https://www.macapp.so/)
+
+[digit77](https://www.digit77.com/)
+
+[minorpatch](https://www.minorpatch.com/)
+
+[macbl](https://www.macbl.com/)
+
+[mymac](https://mymac.top/)
+
+[imacapp](https://www.imacapp.cn/)
+
+[mac8k](https://www.mac8k.com/)
+
+[macdo](https://www.macdo.cn/)
+
+[ludown](https://www.ludown.com/)
+
+[dayanzai](http://www.dayanzai.me/)
+
+[wangchujiang](https://wangchujiang.com/awesome-mac/)
+
+[hzlzh](https://github.com/hzlzh/Best-App)
 
 ---
 
