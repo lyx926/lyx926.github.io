@@ -1,1 +1,0 @@
-import{_ as r}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as t,o,b as n}from"./app-BIKEHu4G.js";const a={};function l(s,e){return o(),t("div",null,e[0]||(e[0]=[n("p",null,"功能详情...",-1)]))}const f=r(a,[["render",l],["__file","ray.html.vue"]]);export{f as default};
